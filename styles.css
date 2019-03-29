@@ -8,9 +8,7 @@
 
 .card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+    overflow-wrap: break-word;
 }
 
 .display-5 {
