@@ -1,0 +1,12 @@
+.card-img-top {
+    max-height: 100px;
+    max-width: 200px;
+    align-content: center;
+    padding-left: 15px;
+}
+
+.d-flex {
+    flex-direction: column;
+    align-items: stretch;
+
+}
