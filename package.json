@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-resume",
+  "version": "1.0.0",
+  "description": "# In this lab, the goal is to recreated the resume that is found in the attached PDF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solgamd/Bootstrap-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solgamd/Bootstrap-Resume/issues"
+  },
+  "homepage": "https://github.com/solgamd/Bootstrap-Resume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {}
+}
