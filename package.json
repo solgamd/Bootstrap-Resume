@@ -1,6 +1,9 @@
 {
   "name": "bootstrap-resume",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.0"
+  },
   "description": "# In this lab, the goal is to recreate the resume that is found in the attached PDF.",
   "main": "index.js",
   "scripts": {
