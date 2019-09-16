@@ -1,5 +1,7 @@
-.jumbotron {
+.jumbotron-fluid {
     font-family: 'ZCOOL XiaoWei', serif;
+    padding: 1em;
+    padding-left: 3em;
 }
 
 .lead1 {
@@ -14,14 +16,13 @@
 .card-img-top {
     max-height: 100px;
     max-width: 200px;
-    align-content: center;
-    padding-left: 20px;
-    padding-top: 15px;
 }
 
 .card {
     display: flex;
     overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
 }
 
 .table {
