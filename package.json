@@ -9,8 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
-    "build": "npx webpack",
-    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,10 +21,7 @@
   },
   "homepage": "https://github.com/solgamd/Bootstrap-Resume#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "webpack": "^4.40.2"
+    "express": "^4.17.1"
   },
-  "devDependencies": {
-    "webpack-cli": "^3.3.8"
-  }
+  "devDependencies": {}
 }
