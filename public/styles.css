@@ -42,8 +42,9 @@
     padding-bottom: .75em; 
 }
 
-h1 {
+h2 {
     font-family: 'ZCOOL XiaoWei', serif;
+    padding-top: 2em;
 }
 
 .font {
@@ -81,5 +82,3 @@ h1 {
 .card-text {
     font-family: 'Courier New', Courier, monospace;
 }
-
-
