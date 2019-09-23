@@ -1,5 +1,5 @@
 .jumbotron {
-    font-family: 'Sarala', sans-serif !important;
+    font-family: 'Sarala', sans-serif;
     padding: 15px
 }
 
@@ -98,6 +98,7 @@ h6 {
 .proj-card {
     max-width: 250px;
 }
+
 .project-btn {
     padding: 5px 10px 5px 10px;
 }
