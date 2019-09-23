@@ -10,18 +10,29 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:700&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Play:700|Sarala&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron-fluid rounded bg-info text-white">
+        <div class="jumbotron rounded outline bg-info text-white text-center">
             <h1 class="display-4">Megan Solga</h1>
-            <hr class="my-4 text-white">
-            <h5 class="lead1">Relevant Experience:</h5>
+            <table class="table table-borderless">
+                <thead class="contact">
+                    <tr>
+                        <th>solgamd@gmail.com</th>
+                        <th>+763 367 0935</th>
+                        <!-- <th scope="col" href="https://github.com/solgamd?tab=repositories">GitHub: solgamd</th> -->
+                    </tr>
+                </thead>
+            </table>
+            <p class="p-jumbo display-4">Soon to be located in Denver, Colorado</p>
+            <h5 class="lead1 mt-5">RELEVANT EXPERIENCE</h5>
             <ul class="current">
-                <li>Full Stack Web Development Certification</li>
-                <li>Brand Manager, PlanOmatic Real Estate Marketing</li>
-                <li>Manager of Marketing & Online Learning, Activa Idioma</li>
+                <p>Full Stack Web Development Certification</p>
+                <p>Brand Manager, PlanOmatic Real Estate Marketing</p>
+                <p>Manager of Marketing & Online Learning, Activa Idioma</p>
             </ul>
         </div>
         <!-- <div class="alert alert-info rounded" role="alert">
@@ -29,15 +40,15 @@
         </div> -->
 
         <!-- Skills -->
-        <h2 class="mb-4 font text-center">Skills</h2>
-        <section class="row d-flex">
-            <div class="col-md-6">
+        <h2 class="mb-4">Skills</h2>
+        <section class="row d-flex justify-content-center skills">
+            <div class="col-md-5 mb-4">
                 <ul class="list-group">
                     <li class="list-group-item list-group-item-secondary d-flex">
-                        HTML/CSS including Bootstrap
+                        JavaScript
                     </li>
                     <li class="list-group-item list-group-item-secondary d-flex">
-                        JavaScript (Vanilla)
+                        HTML/CSS including Bootstrap
                     </li>
                     <li class="list-group-item list-group-item-secondary d-flex">
                         jQuery
@@ -50,7 +61,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <ul class="list-group">
                     <li class="list-group-item list-group-item-secondary d-flex">
                         Node/Express Server Development
@@ -59,96 +70,98 @@
                         MySQL
                     </li>
                     <li class="list-group-item list-group-item-secondary d-flex">
+                        git
+                    </li>
+                    <li class="list-group-item list-group-item-secondary d-flex">
                         Authentication
                     </li>
                     <li class="list-group-item list-group-item-secondary d-flex">
                         3rd Party APIs like Stripe and Mailgun
-                    </li>
-                    <li class="list-group-item list-group-item-secondary d-flex">
-                        Deployment (Heroku)
                     </li>
                 </ul>
             </div>
         </section>
 
         <!-- Experience -->
-        <h2 class="font text-center">Experience</h2>
-        <div class="row justify-content-center">
+        <h2 class="mb-3">Experience</h2>
+        <section class="row justify-content-center">
             <div class="card col m-3">
-                <img class="card-img-top my-2" src="images/logo_covalence.png" alt="covalence-logo">
+                <img class="card-img-top" src="images/logo_covalence.png" alt="covalence-logo">
+                <h5 class="card-title">Student, Full Stack Web Development</h5>
+                <h5 class="card-title font-italic">Covalence</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Student, Full Stack Web Development</h5>
-                    <h5 class="card-title font-italic">Covalence</h5>
-                    <p class="card-text">- Learned and employed coding skills 30+ hours/week over 6 months to build
+                    <p class="card-text">• Learned and employed coding skills 30+ hours/week over 6 months to build
                         static and full stack web apps using JavaScript and related tools and frameworks.</p>
-                    <p class="card-text">- Utilized JavaScript, HTML, CSS, Bootstrap, and jQuery to build functional
+                    <p class="card-text">• Utilized JavaScript, HTML, CSS, Bootstrap, and jQuery to build functional
                         frontend web apps.</p>
-                    <p class="card-text">- Utilized Node/Express.js and MySQL to build and connect servers, middleware,
+                    <p class="card-text">• Utilized Node/Express.js and MySQL to build and connect servers, middleware,
                         and REST API routes.</p>
-                    <br>
-                    <br>
-                    <p class="font-weight-bold">View my code:</p>
-                    <a href="https://github.com/solgamd?tab=repositories" target="_blank"
-                        class="btn btn-info btn-sm">Github Profile</a>
+                </div>
+                <div class="align-self-baseline mb-3 mx-3">
+                    <p class="card-foot">View my code:</p>
+                    <a href="https://github.com/solgamd?tab=repositories" target="_blank" class="btn btn-info btn-sm mb-1">
+                        Github Profile</a>
                 </div>
             </div>
             <div class="card col-md m-3">
-                <img class="card-img-top my-2" src="images/logo_planomatic.png" alt="planomatic-logo">
+                <img class="card-img-top" src="images/logo_planomatic.png" alt="planomatic-logo">
+                <h5 class="card-title">Brand Manager</h5>
+                <h5 class="card-title font-italic">PlanOmatic Real Estate Marketing</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Brand Manager</h5>
-                    <h5 class="card-title font-italic">PlanOmatic Real Estate Marketing</h5>
-                    <p class="card-text">- Built and maintained user-friendly client interface using HTML, CSS and
+                    <p class="card-text">• Built and maintained user-friendly client interface using HTML, CSS and
                         Photoshop.</p>
-                    <p class="card-text">- Tested and monitored the company web app for bugs, faulty paths,
+                    <p class="card-text">• Tested and monitored the company web app for bugs, faulty paths,
                         and good UX across desktop, tablet, and mobile.</p>
-                    <p class="card-text">- Worked alongside developer team to ensure best development practices
+                    <p class="card-text">• Worked alongside developer team to ensure best development practices
                         for web app maintenance and improvements.</p>
-                    <br>
-                    <br>
-                    <p class="font-weight-bold justify-content-end">View a webpage that I helped create and update:</p>
-                    <a href="https://www.planomatic.com/samples" target="_blank" class="btn btn-info btn-sm">PlanOmatic
+                </div>
+                <div class="align-self-baseline mb-3 mx-3">
+                    <p class="card-foot">View a webpage that I helped create and maintain:
+                    </p>
+                    <a href="https://www.planomatic.com/samples" target="_blank" class="btn btn-info btn-sm mb-1">PlanOmatic
                         Website</a>
                 </div>
             </div>
             <div class="card col m-3">
-                <img class="card-img-top my-2" src="images/logo_activa.png" alt="activa-idioma-logo">
+                <img class="card-img-top" src="images/logo_activa.png" alt="activa-idioma-logo">
+                <h5 class="card-title">Manager, Marketing & Online Learning</h5>
+                <h5 class="card-title font-italic">Activa Idioma Academy</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Manager, Marketing & Online Learning</h5>
-                    <h5 class="card-title font-italic">Activa Idioma Academy</h5>
-                    <p class="card-text">- Directed dev team to improve the UX of the company's proprietary
+                    <p class="card-text">• Directed dev team to improve the UX of the company's proprietary
                         teaching/learning web platform.</p>
-                    <p class="card-text">- Created/employed marketing strategy incorporating the company web app,
+                    <p class="card-text">• Created/employed marketing strategy incorporating the company web app,
                         social media, and digital outreach; used tools like MailChimp, Hootsuite, and Google
                         Analytics.</p>
-                    <p class="card-text">- Managed teachers in using web platform and monitoring usability to report
-                        suggested improvements to CEO.
-                    </p>
-                    <br>
-                    <br>
-                    <p class="font-weight-bold">View webpages where I made UX improvements:</p>
-                    <a href="activaidioma.com" target="_blank" class="btn btn-info btn-sm">Activa Homepage</a>
-                    <a href="activaidioma.com/onlive" target="_blank" class="btn btn-info btn-sm">OnLive
+                    <p class="card-text">• Managed teachers in using web platform and monitoring usability to report
+                        suggested improvements to CEO.</p>
+                </div>
+                <div class="align-self-baseline mb-3 mx-3">
+                    <p class="card-foot">View webpages where I made UX improvements:</p>
+                    <a href="https://www.activaidioma.com/cat/index.php" target="_blank"
+                        class="btn btn-info btn-sm mb-1">Activa Homepage</a>
+                    <a href="https://www.activaidioma.com/cat/online.php" target="_blank"
+                        class="btn btn-info btn-sm mb-1">OnLive
                         English</a>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!-- Education -->
-        <h2 class="mb-4 font text-center">Education</h2>
-        <table class="table table-secondary table-rounded-lg rounded">
+        <h2 class="mb-4">Education</h2>
+        <table class="table table-secondary table-rounded-lg rounded justify-content-center">
             <thead>
-                <tr class="table bg-secondary text-white font">
-                    <th scope="col">Achievement</th>
-                    <th scope="col">Institution</th>
-                    <th scope="col">Completed</th>
+                <tr class="table bg-secondary text-white">
+                    <th>Achievement</th>
+                    <th>Institution</th>
+                    <th>Completed</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Full Stack Web Development</td>
                     <td>Covalence</td>
-                    <td>September 2019 (expected)</td>
+                    <td>September 2019 (projected)</td>
                 </tr>
                 <tr>
                     <td>Bachelor of Arts</td>
@@ -165,7 +178,7 @@
         </table>
 
         <!-- About Me -->
-        <h2 class="mb-4 font text-center">Personal Interests</h2>
+        <h2 class="mb-4">Personal Interests</h2>
         <div class="container d-flex justify-content-center">
             <div class="row">
                 <div class="col-4">
@@ -194,47 +207,43 @@
         </div>
 
         <!-- Projects -->
-        <h2 class="mb-4 font text-center">Live Projects</h2>
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="card border rounded p-3 m-2 justify-content-start">
-                    <a href="https://aqueous-sierra-06450.herokuapp.com/" target="_blank" class="btn btn-info py-3 px-3"
-                        style="font-size: 1.25em">Blog App</a>
-                    <p></p>
-                    <h5>Built with:</h5>
-                    <p>React + Hooks</p>
-                    <p>Typescript</p>
-                    <p>HTML, SASS & Bootstrap</p>
-                    <p>Node/Express</p>
-                </div>
-                <div class="card border rounded p-3 m-2 justify-content-start">
-                    <a href="https://protected-reef-88850.herokuapp.com/" target="_blank" class="btn btn-info py-3 px-3"
-                        style="font-size: 1.25em">Typing Game</a>
-                        <p></p>
-                    <h5>Built with:</h5>
-                    <p>jQuery</p>
-                    <p>HTML, CSS & Bootstrap</p>
-                    <p>Node/Express</p>
-                    <p></p>
-                </div>
+        <h2 class="mb-4 text-center">Live Projects</h2>
+        <div class="container d-flex justify-content-center font mb-5">
+            <div class="card border rounded p-3 m-2 justify-content-start">
+                <a href="https://aqueous-sierra-06450.herokuapp.com/" target="_blank" class="project-btn btn btn-info"
+                    >Blog App</a>
+                <h6 class="mt-4 font text-underline"><u>Built with:</u></h6>
+                <p>React + Hooks</p>
+                <p>Typescript</p>
+                <p>HTML, SASS & Bootstrap</p>
+                <p>Node/Express</p>
+            </div>
+            <div class="card border rounded p-3 m-2 justify-content-start">
+                <a href="https://protected-reef-88850.herokuapp.com/" target="_blank"
+                    class="project-btn btn btn-info">Typing Game</a>
+                <h6 class="mt-4 font text-underline"><u>Built with:</u></h6>
+                <p>jQuery</p>
+                <p>HTML, CSS & Bootstrap</p>
+                <p>Node/Express</p>
+                <p></p>
             </div>
         </div>
+    </div>
 
-        <!-- Footer -->
-        <div class="jumbotron-fluid rounded bg-secondary mt-3 text-white">
-            <h4 class="display-5">Megan Solga</h4>
-            <h5 class="subline">Full Stack Web Developer</h5>
-            <table class="table table-borderless">
-                <thead class="contact">
-                    <tr>
-                        <th scope="col">solgamd@gmail.com</th>
-                        <th scope="col">+763 367 0935</th>
-                        <th scope="col" href="https://github.com/solgamd?tab=repositories">GitHub: solgamd</th>
-                    </tr>
-                </thead>
-            </table>
-            <p class="p-foot">Soon to be located in Denver, Colorado</p>
-        </div>
+    <!-- Footer -->
+    <div class="jumbotron rounded bg-info contact-footer">
+        <h4 class="display-5">Megan Solga</h4>
+        <h5 class="subline">Full Stack Web Developer</h5>
+        <table class="table table-borderless">
+            <thead class="contact">
+                <tr>
+                    <th>solgamd@gmail.com</th>
+                    <th>+763 367 0935</th>
+                    <th href="https://github.com/solgamd?tab=repositories">GitHub: solgamd</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 
     </div>
 </body>

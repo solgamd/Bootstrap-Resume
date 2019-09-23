@@ -1,21 +1,39 @@
-.jumbotron-fluid {
-    font-family: 'ZCOOL XiaoWei', serif;
-    padding: 1em;
-    padding-left: 3em;
+.jumbotron {
+    font-family: 'Sarala', sans-serif;
+}
+
+.display-4 {
+    color:rgb(234, 248, 171);
+    margin-bottom: 10px
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(234, 248, 171);
 }
 
 .lead1 {
-    padding-bottom: 8px;
-    text-decoration: underline;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800
 }
 
 .current {
+    font-size: 14px;
+    /* text-align: center; */
+}
+
+.skills {
+    font-family: 'Sarala', sans-serif;
     font-size: 18px;
 }
 
 .card-img-top {
     max-height: 100px;
     max-width: 200px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .card {
@@ -25,15 +43,30 @@
     align-items: center;
 }
 
+.card-title {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-foot {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 800;
+    font-size: 16px
+}
+
 .table {
     margin-bottom: 40px;
+    font-family: 'Sarala', sans-serif;
 }
 
 .display-5 {
     text-align: center;
     font-size: 2.25em;
-    padding-bottom: .25em; 
-
 }
 
 .subline {
@@ -43,32 +76,41 @@
 }
 
 h2 {
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: 'Open Sans';
     padding-top: 2em;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    color: #4b4f4f;
+}
+
+.btn {
+    font-family: 'Sarala', sans-serif;
 }
 
 .font {
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: 'Sarala', sans-serif;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-around;
-    color: white;
+.project-btn {
+    padding: 5px 10px 5px 10px;
 }
 
-.p-foot {
+.p-jumbo {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: -30px 0 -5px 0;
+}
+
+.contact-footer {
+    color: rgb(234, 248, 171);
+    font-family: 'Sarala', sans-serif;
 }
 
 .credits {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: .25em;
-       
+    font-size: 9px;
 }
 
 .icon {
@@ -79,6 +121,5 @@ h2 {
     
 }
 
-.card-text {
-    font-family: 'Courier New', Courier, monospace;
-}
+
+
