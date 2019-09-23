@@ -1,5 +1,6 @@
 .jumbotron {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Sarala', sans-serif !important;
+    padding: 15px
 }
 
 .display-4 {
@@ -15,13 +16,11 @@
 
 .lead1 {
     font-size: 18px;
-    text-align: center;
-    font-weight: 800
+    font-weight: 800;
 }
 
 .current {
     font-size: 14px;
-    /* text-align: center; */
 }
 
 .skills {
@@ -47,6 +46,7 @@
     font-family: 'Sarala', sans-serif;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .card-text {
@@ -81,6 +81,10 @@ h2 {
     font-family: 'Play', sans-serif;
     text-align: center;
     color: #4b4f4f;
+}
+
+h6 {
+    color: gray;
 }
 
 .btn {
@@ -118,7 +122,6 @@ h2 {
     width: 7em;    
     margin:1em;
     align-items: center;
-    
 }
 
 
