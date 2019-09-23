@@ -17,7 +17,9 @@
 <body>
     <div class="container">
         <div class="jumbotron rounded outline bg-info text-white text-center">
-            <h1 class="display-4">Megan Solga</h1>
+            <h1 class="display-4 mb-3">Megan Solga</h1>
+            <h5 class="subline">Full Stack Web Developer</h5>
+
             <table class="table table-borderless">
                 <tbody class="contact">
                     <tr>
@@ -26,19 +28,10 @@
                     </tr>
                 </tbody>
             </table>
-            <h6 style="color: rgb(234, 248, 171)">Relocating to Denver, CO</h6>
+            <h6 class="text-white">Relocating to Denver, CO</h6>
             <a class="btn btn-outline-light mt-3" href="https://github.com/solgamd" target="_blank">GitHub</a>
             <a class="btn btn-outline-light mt-3" href="https://www.linkedin.com/in/megandsolga/"
                 target="_blank">LinkedIn</a>
-
-            <!-- <div class="justify-content-center">
-                <h5 class="lead1 mt-5">RELEVANT EXPERIENCE</h5>
-                <div class="current">
-                    <p>Full Stack Web Development Certification</p>
-                    <p>Brand Manager, PlanOmatic Real Estate Marketing</p>
-                    <p>Manager of Marketing & Online Learning, Activa Idioma</p>
-                </div>
-            </div> -->
         </div>
 
         <!-- Skills -->
@@ -101,8 +94,7 @@
                 </div>
                 <div class="align-self-baseline mb-3 mx-3">
                     <p class="card-foot">View my code:</p>
-                    <a href="https://github.com/solgamd?tab=repositories" target="_blank"
-                        class="btn btn-info btn-sm mb-1">
+                    <a href="https://github.com/solgamd" target="_blank" class="btn btn-info btn-sm mb-1">
                         Github Profile</a>
                 </div>
             </div>
@@ -153,7 +145,7 @@
 
         <!-- Education -->
         <h2 class="mb-3 pt-5">Education</h2>
-        <table class="table table-secondary table-rounded-lg rounded justify-content-center">
+        <table class="table table-secondary table-rounded-lg rounded justify-content-center table-fixed">
             <tbody>
                 <tr class="table bg-secondary text-white">
                     <th>Achievement</th>
@@ -172,43 +164,8 @@
                     <td>University of Minnesota</td>
                     <td>December 2010</td>
                 </tr>
-                <!-- <tr>
-                    <td>CELTA (Certificate in English Language Teaching to Adults)</td>
-                    <td>Cambridge University/ILA Vietnam</td>
-                    <td>May 2015</td>
-                </tr> -->
-
             </tbody>
         </table>
-
-        <!-- About Me -->
-        <h2 class="mb-3 pt-5">Personal Interests</h2>
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="col-4">
-                    <img class="icon" src="images/music.jpg">
-                </div>
-                <div class="col-4">
-                    <img class="icon" src="images/snow.jpg">
-                </div>
-                <div class="col-4">
-                    <img class="icon" src="images/travel.jpg">
-                </div>
-            </div>
-        </div>
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class=" col-4">
-                    <img class="icon" src="images/history.jpg">
-                </div>
-                <div class="col-4">
-                    <img class="icon" src="images/yoga.jpg">
-                </div>
-                <div class="col-4">
-                    <img class="icon" src="images/fiction.jpg">
-                </div>
-            </div>
-        </div>
 
         <!-- Projects -->
         <h2 class="mb-3 pt-5">Live Projects</h2>
@@ -236,14 +193,41 @@
                 <p>Node/Express</p>
             </div>
             <div class="card proj-card border rounded p-3 m-2 justify-content-start">
-                <a href="" target="_blank" class="project-btn btn btn-info">New App</a>
-                <!-- <p class="m-4 font-italic text-center font text-secondary">Note: You'll see game instructions after
-                        loading the app.</p> -->
-                <!-- <h5 class="mt-3 font text-underline"><b>Web App Built Using:</b></h5> -->
-                <p class="justify-content-center mt-4 text-center">I'm currently working on a new full stack React app!</p>
+                <a target="_blank" class="project-btn btn btn-info text-white" onclick="btnalert()">New App</a>                
+                <p class="justify-content-center mt-4 text-center">I'm currently working on a new full stack React app!
+                </p>
                 <p class="text-center mt-5">Will I use <b>Hooks</b>?</p>
                 <p class="text-center">Will I use <b>Typescript</b>?</p>
                 <p class="text-center">Only one way to find out: STAYED TUNED!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <h2 class="mb-3 pt-6">Personal Interests</h2>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-4">
+                <img class="icon" src="images/music.jpg">
+            </div>
+            <div class="col-4">
+                <img class="icon" src="images/snow.jpg">
+            </div>
+            <div class="col-4">
+                <img class="icon" src="images/travel.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center mb-5">
+        <div class="row">
+            <div class=" col-4">
+                <img class="icon" src="images/history.jpg">
+            </div>
+            <div class="col-4">
+                <img class="icon" src="images/yoga.jpg">
+            </div>
+            <div class="col-4">
+                <img class="icon" src="images/fiction.jpg">
             </div>
         </div>
     </div>
@@ -257,7 +241,6 @@
                 <tr>
                     <th>solgamd@gmail.com</th>
                     <th>+763 367 0935</th>
-                    <th href="https://github.com/solgamd?tab=repositories">GitHub: solgamd</th>
                 </tr>
             </tbody>
         </table>
@@ -280,3 +263,9 @@
 </div>
 
 </html>
+<script>
+    function btnalert() {
+        alert("Calm down, antsy pants!\n" +
+            "The app will be here soon enough 😉");
+    } 
+</script>

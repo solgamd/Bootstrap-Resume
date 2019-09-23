@@ -3,14 +3,14 @@
     padding: 20px 10px 20px 10px;
 }
 
-.display-4 {
-    color:rgb(234, 248, 171);
+.display-4, .subline {
+    color: white;
 }
 
 .contact {
     display: flex;
     justify-content: space-around;
-    color: rgb(234, 248, 171) !important;
+    color: white
 }
 
 .lead1 {
@@ -76,10 +76,9 @@
 h2 {
     font-family: 'Open Sans';
     font-family: 'Sarala', sans-serif;
-
-    /* font-family: 'Play', sans-serif; */
     text-align: center;
     color: #4b4f4f;
+    font-weight: 800
 }
 
 h6 {
@@ -109,7 +108,7 @@ h6 {
 }
 
 .contact-footer {
-    color: rgb(234, 248, 171);
+    color: white;
     font-family: 'Sarala', sans-serif;
 }
 
@@ -126,6 +125,3 @@ h6 {
     margin:1em;
     align-items: center;
 }
-
-
-
