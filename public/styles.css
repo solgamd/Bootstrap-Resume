@@ -1,17 +1,16 @@
 .jumbotron {
     font-family: 'Sarala', sans-serif;
-    padding: 15px
+    padding: 20px 10px 20px 10px;
 }
 
 .display-4 {
     color:rgb(234, 248, 171);
-    margin-bottom: 10px
 }
 
 .contact {
     display: flex;
     justify-content: space-around;
-    color: rgb(234, 248, 171);
+    color: rgb(234, 248, 171) !important;
 }
 
 .lead1 {
@@ -60,7 +59,6 @@
 }
 
 .table {
-    margin-bottom: 40px;
     font-family: 'Sarala', sans-serif;
 }
 
@@ -77,8 +75,9 @@
 
 h2 {
     font-family: 'Open Sans';
-    padding-top: 2em;
-    font-family: 'Play', sans-serif;
+    font-family: 'Sarala', sans-serif;
+
+    /* font-family: 'Play', sans-serif; */
     text-align: center;
     color: #4b4f4f;
 }
