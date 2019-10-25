@@ -32,11 +32,15 @@
     font-size: 18px;
 }
 
-.card-img-top {
+.exp-snip {
     max-height: 100px;
     max-width: 200px;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+.img-snip {
+    max-width: 250px;
 }
 
 .card {
@@ -48,7 +52,6 @@
 
 .card-title {
     font-family: 'Sarala', sans-serif;
-    font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -59,8 +62,7 @@
 
 .card-foot {
     font-family: 'Sarala', sans-serif;
-    font-weight: 800;
-    font-size: 16px
+
 }
 
 .table {
@@ -86,10 +88,6 @@ h2 {
     font-weight: 800
 }
 
-h6 {
-    color: gray;
-}
-
 .btn {
     font-family: 'Sarala', sans-serif;
 }
@@ -104,6 +102,7 @@ h6 {
 
 .project-btn {
     padding: 5px 10px 5px 10px;
+    align-items: flex-end;
 }
 
 .p-jumbo {
