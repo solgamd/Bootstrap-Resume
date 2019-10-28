@@ -32,6 +32,12 @@
     font-size: 18px;
 }
 
+.alert {
+    font-family: 'Sarala', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 0px
+}
+
 .exp-snip {
     max-height: 100px;
     max-width: 200px;
