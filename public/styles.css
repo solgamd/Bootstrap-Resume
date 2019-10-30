@@ -121,6 +121,7 @@ h2 {
 .contact-footer {
     color: white;
     font-family: 'Sarala', sans-serif;
+    padding-bottom: 4px;
 }
 
 .credits {
