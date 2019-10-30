@@ -71,6 +71,10 @@
 
 }
 
+.card-body-proj {
+    padding-bottom: 5px
+}
+
 .table {
     font-family: 'Sarala', sans-serif;
 }
@@ -92,6 +96,10 @@ h2 {
     text-align: center;
     color: #4b4f4f;
     font-weight: 800
+}
+
+li {
+    font-size: 16px;
 }
 
 .btn {
