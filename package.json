@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/solgamd/Bootstrap-Resume#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sweetalert2": "^9.1.5"
   },
   "devDependencies": {}
 }
