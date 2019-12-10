@@ -1,12 +1,19 @@
 $theme-colors: (
-    primary: #C9672A,
-    secondary: #F9F6E5,
-    info: #437C90,
-    alert: #373E40,
+    $amber: #C9672A,
+    $white: #F9F6E5,
+    $green: #437C90,
+    $dark: #373E40,
 );
+$primary: $amber;
+    $secondary: $white;
+    $info: $green;
+    $dark: $dark;
 
 @import "bootstrap";
 
+body {
+    background-color: #F9F6E5;
+}
 .jumbotron {
     font-family: 'Sarala', sans-serif;
     padding: 20px 10px 20px 10px;
@@ -39,6 +46,10 @@ $theme-colors: (
 .skills {
     font-family: 'Sarala', sans-serif;
     font-size: 18px;
+}
+
+.list-group-flush, li {
+    font-family: 'Sarala', sans-serif;
 }
 
 .alert {
