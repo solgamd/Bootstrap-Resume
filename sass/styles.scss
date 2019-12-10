@@ -1,3 +1,12 @@
+$theme-colors: (
+    primary: #C9672A,
+    secondary: #F9F6E5,
+    info: #437C90,
+    alert: #373E40,
+);
+
+@import "bootstrap";
+
 .jumbotron {
     font-family: 'Sarala', sans-serif;
     padding: 20px 10px 20px 10px;
