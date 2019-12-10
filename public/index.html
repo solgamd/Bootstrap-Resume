@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:700&display=swap">
     <link href="https://fonts.googleapis.com/css?family=Play:700|Sarala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
 </head>
 
 <body>
@@ -339,11 +340,10 @@
 </div>
 
 </html>
-<script>
-    function btnalert() {
-        alert('Calm down antsy pants! The app will be here soon enough. 😉')
-        // Swal.fire(
-        //     'Calm down antsy pants! The app will be here soon enough. 😉'
-        // )
-    }
+
+<script src="../node_modules/aos/dist/aos.js">
+    AOS.init({ duration: 600 });
 </script>
+    <!-- function btnalert() {
+        alert('Calm down antsy pants! The app will be here soon enough. 😉')
+    } -->
