@@ -4,7 +4,7 @@
   "engines": {
     "node": "10.16.0"
   },
-  "description": "# In this lab, the goal is to recreate the resume that is found in the attached PDF.",
+  "description": "Resume built in Bootstrap; originally a Covalence lab",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,7 +32,5 @@
     "style-loader": "^1.0.1",
     "webpack": "^4.41.2"
   },
-  "devDependencies": {
-    "node-sass": "^4.13.0"
-  }
+  "devDependencies": {}
 }

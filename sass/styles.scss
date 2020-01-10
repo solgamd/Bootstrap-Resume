@@ -1,31 +1,54 @@
-$theme-colors: (
-    $amber: #C9672A,
-    $white: #F9F6E5,
-    $green: #437C90,
-    $dark: #373E40,
-);
-$primary: $amber;
-    $secondary: $white;
-    $info: $green;
-    $dark: $dark;
 
-@import "bootstrap";
+@font-face {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    src: url('fonts/SairaExtraCondensed-Regular.ttf') format('truetype');
+}
+
+$primary: #C9672A;
+$secondary: #F9F6E5;
+$info: #437C90;
+$dark: #373E40; 
 
 body {
-    background-color: #F9F6E5;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.jumbotron {
-    font-family: 'Sarala', sans-serif;
-    padding: 20px 10px 20px 10px;
+.navbar {
+    position: fixed;
+    background-color: white;
+    border: 1px solid #C9672A;
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
 }
+
+.bubble1 {
+    position: absolute;
+    margin-right: 20px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: black;
+    display: block
+}
+
+.bubble2 {
+    position: absolute;
+    margin-left: 20px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: purple;
+    display: block
+}
+
+// .jumbotron {
+//     font-family: 'Sarala', sans-serif;
+//     padding: 20px 10px 20px 10px;
+// }
 
 .rounded-circle {
     height: 5em;
-}
-
-.display-4, .subline {
-    color: white;
 }
 
 .contact {
@@ -43,14 +66,18 @@ body {
     font-size: 14px;
 }
 
+.badge {
+    color: #C9672A;
+}
+
 .skills {
-    font-family: 'Sarala', sans-serif;
+    // font-family: 'Sarala', sans-serif;
     font-size: 16px;
     text-align: center;
 }
 
 .alert {
-    font-family: 'Sarala', sans-serif;
+    // font-family: 'Sarala', sans-serif;
     padding-top: 10px;
     padding-bottom: 0px
 }
@@ -74,7 +101,7 @@ body {
 }
 
 .card-title {
-    font-family: 'Sarala', sans-serif;
+    // font-family: 'Sarala', sans-serif;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -83,17 +110,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.card-foot {
-    font-family: 'Sarala', sans-serif;
+// .card-foot {
+//     // font-family: 'Sarala', sans-serif;
 
-}
+// }
 
 .card-body-proj {
     padding-bottom: 5px
 }
 
 .table {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    margin-bottom: 150px
 }
 
 .display-5 {
@@ -107,9 +135,14 @@ body {
     padding-bottom: .75em; 
 }
 
+h1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
 h2 {
-    font-family: 'Open Sans';
-    font-family: 'Sarala', sans-serif;
+    // font-family: 'Open Sans';
+    // font-family: 'Sarala', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
     text-align: center;
     color: #4b4f4f;
     font-weight: 800
@@ -119,13 +152,13 @@ li {
     font-size: 16px;
 }
 
-.btn {
-    font-family: 'Sarala', sans-serif;
-}
+// .btn {
+//     // font-family: 'Sarala', sans-serif;
+// }
 
-.font {
-    font-family: 'Sarala', sans-serif;
-}
+// .font {
+//     // font-family: 'Sarala', sans-serif;
+// }
 
 .proj-card {
     max-width: 250px;
@@ -145,7 +178,7 @@ li {
 
 .contact-footer {
     color: white;
-    font-family: 'Sarala', sans-serif;
+    // font-family: 'Sarala', sans-serif;
     padding-bottom: 4px;
 }
 

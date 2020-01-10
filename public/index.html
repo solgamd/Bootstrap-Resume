@@ -9,20 +9,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:700&display=swap">
-    <link href="https://fonts.googleapis.com/css?family=Play:700|Sarala&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron rounded outline bg-primary text-white text-center">
-            <div class="text-center">
+    <section class="navbar navbar-fixed-top sticky-top navbar-collapse hidden-xs hidden-sm"
+        style="background-color: whitesmoke">
+        <div class="col-sm-4">
+            <a href="/">
+                <h1>Megan Solga</h1>
+            </a>
+            <h6 class="text-primary">Full Stack Web Developer | Marketer | Teacher</h5>
+        </div>
+        <div class="col-sm-8 navbar-links d-flex justify-content-end">
+            <a href="#about" class="mx-2">About</a>
+            <a href="#devskills" class="mx-2">Skills</a>
+            <a href="#experience" class="mx-2">Experience</a>
+            <a href="#education" class="mx-2">Education</a>
+            <a href="#interests" class="mx-2">Interests</a>
+            <a href="#projects" class="mx-2">Projects</a>
+        </div>
+    </section>
+    <!-- <div class="container-fluid">
+        <div class="outline bg-primary text-white text-center">
+            <!-- <div class="text-center">
                 <img src="images/headshot-crop-square.jpg" class="rounded-circle" alt="headshot">
-            </div>
-            <h1 class="display-4 mb-3">Megan Solga</h1>
-            <h5 class="subline">Full Stack Web Developer | Marketer | Teacher</h5>
+            </div> -->
+
+    <!-- <h5 class="subline">Full Stack Web Developer | Marketer | Teacher</h5>
             <table class="table table-borderless m-1">
                 <tbody class="contact">
                     <tr>
@@ -35,310 +49,309 @@
             <a class="btn btn-outline-light mt-3 mx-2" href="https://github.com/solgamd" target="_blank">GitHub</a>
             <a class="btn btn-outline-light mt-3 mx-2" href="https://www.linkedin.com/in/megandsolga/"
                 target="_blank">LinkedIn</a>
-        </div>
-        <!-- About Me  -->
-        <section class="row d-flex m-0 border border-primary">
-            <div class="col-9 p-3 d-flex flex-column">
-                <p class="my-2">I’m a driven self-starter who’s gained invaluable experience living and working in Asia,
-                    Europe, and the USA. Using my skills in web development, marketing, management and teaching, my calling
-                    is to help your organization build stronger relationships with your users by bridging the gap between people and technology.</p>
+        </div> -->
 
+    <!-- About Me  -->
+    <span id="about" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5 " data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
+        <h2 class="my-5 pt-5">About</h2>
+        <section class="row d-flex mx-3">
+            <div class="col-sm-6">
+                <div class="bubble1"></div>
+                <div class="bubble2"></div>
             </div>
-            <div class="col p-3 d-flex flex-column ml-3">
-                <a href="#devskills" class="btn btn-sm btn-outline-info my-1">Dev Skills</a>
-                <a href="#experience" class="btn btn-sm btn-outline-info my-1">Experience</a>
-                <a href="#education" class="btn btn-sm btn-outline-info my-1">Education</a>
-                <a href="#interests" class="btn btn-sm btn-outline-info my-1">Personal Interests</a>
-                <a href="#projects" class="btn btn-sm btn-outline-info my-1">Live Projects</a>
+            <div class="col p-3 d-flex flex-column">
+                <p class="my-2">I’m a driven self-starter who’s gained invaluable experience living and working in Asia,
+                    Europe, and the USA. I want to use my skills to help your organization bridge the gap between your
+                    technology and its users.</p>
             </div>
         </section>
-        <!-- Skills -->
-        <span id="devskills"></span>
-        <div class="aos-item justify-content-center" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
-            <h2 class="mb-3 pt-4">Dev Skills</h2>
-            <section class="row d-flex mb-4 m-0 p-3 skills text-center rounded">
-                <div class="col-sm">
-                    <ul class="list-group">
-                        <h3><span class="badge badge-dark">✔︎ JavaScript</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ HTML</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ CSS & Sass</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ Bootstrap</span></h3>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <ul class="list-group">
-                        <h3><span class="badge badge-dark">✔︎ jQuery</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ React</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ Typescript</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ Node/Express</span></h3>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <ul class="list-group">
-                        <h3><span class="badge badge-dark">✔︎ MySQL</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ PassportJS</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ Git</span></h3>
-                        <h3><span class="badge badge-dark">✔︎ REST APIs</span></h3>
-                    </ul>
-                </div>
-            </section>
-        </div>
+    </div>
+    <!-- Skills -->
+    <span id="devskills" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease">
+        <h2 class="my-5 pt-5">Dev Skills</h2>
+        <hr class="mb-3">
+        <section class="row d-flex mb-4 m-0 p-3 skills text-center rounded">
+            <div class="col-sm">
+                <ul class="list-group">
+                    <h3><span class="badge badge-primary">✔︎ JavaScript</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ HTML</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ CSS & Sass</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ Bootstrap</span></h3>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group">
+                    <h3><span class="badge badge-primary">✔︎ jQuery</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ React</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ Typescript</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ Node/Express</span></h3>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group">
+                    <h3><span class="badge badge-primary">✔︎ MySQL</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ PassportJS</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ Git</span></h3>
+                    <h3><span class="badge badge-primary">✔︎ REST APIs</span></h3>
+                </ul>
+            </div>
+        </section>
+    </div>
 
-        <!-- Experience -->
-        <span id="experience"></span>
-        <div id="experience" data-aos="zoom-in-up" class="aos-item" data-aos-anchor-placement="top-bottom">
-            <h2 class="mb-3 pt-5">Relevant Experience</h2>
-            <section class="row justify-content-center">
-                <div class="card border border-primary col m-3">
-                    <a href="https://covalence.io/" target="_blank"><img class="card-img-top exp-snip"
-                            src="images/logo_covalence.png" alt="covalence-logo"></a>
-                    <h5 class="card-title">Full Stack Web Development Bootcamp</h5>
-                    <h6 class="card-title font-italic">Covalence</h6>
-                    <div class="card-body">
-                        <p class="card-text">• Dedicated 30+ hours/week to full stack web app designing, building, and
-                            maintaining while also learning
-                            the latest web app and programming practices.</p>
-                        <p class="card-text">• Utilized JavaScript, HTML, CSS (+ SASS), Bootstrap, jQuery, React and
-                            Typescript to
-                            build organized, user-friendly frontend code; utilized React Native to build mobile apps.
-                        </p>
-                        <p class="card-text">• Consumed and created REST APIs; wrote authentication middleware using
-                            PassportJS; utilized Node/Express and MySQL to build servers and databases.</p>
-                    </div>
-                    <div class="mb-3 mx-3 align-self-start">
-                        <!-- <p class="card-foot">Check out my code:</p> -->
-                        <a href="https://github.com/solgamd" target="_blank" class="btn btn-primary btn-sm mb-1">
-                            GitHub Profile</a>
-                    </div>
+    <!-- Experience -->
+    <span id="experience" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease">
+        <h2 class="my-5 pt-5">Relevant Experience</h2>
+        <section class="row justify-content-center">
+            <div class="card border border-primary col m-3">
+                <a href="https://covalence.io/" target="_blank"><img class="card-img-top exp-snip"
+                        src="images/logo_covalence.png" alt="covalence-logo"></a>
+                <h5 class="card-title">Full Stack Web Development Bootcamp</h5>
+                <h6 class="card-title font-italic">Covalence</h6>
+                <div class="card-body">
+                    <p class="card-text">• Dedicated 30+ hours/week to full stack web app designing, building, and
+                        maintaining while also learning
+                        the latest web app and programming practices.</p>
+                    <p class="card-text">• Utilized JavaScript, HTML, CSS (+ SASS), Bootstrap, jQuery, React and
+                        Typescript to
+                        build organized, user-friendly frontend code; utilized React Native to build mobile apps.
+                    </p>
+                    <p class="card-text">• Consumed and created REST APIs; wrote authentication middleware using
+                        PassportJS; utilized Node/Express and MySQL to build servers and databases.</p>
                 </div>
-                <div class="card border border-primary col-md m-3">
-                    <a href="https://www.planomatic.com/" target="_blank"><img class="card-img-top exp-snip"
-                            src="images/logo_planomatic.png" alt="planomatic-logo"></a>
-                    <h5 class="card-title">Brand Manager</h5>
-                    <h6 class="card-title font-italic">PlanOmatic Real Estate Marketing</h6>
-                    <div class="card-body">
-                        <br>
-                        <p class="card-text">• Built and maintained responsive web app with HTML, CSS, and SEO best
-                            practices using a content
-                            management system;
-                            incorporated web-optimized high-resolution photos using Photoshop.</p>
-                        <p class="card-text">• Frequently performed website updates, tested web app across browsers and
-                            devices and
-                            took customer feedback to identify problems, then worked with dev team on solutions.</p>
-                        <p class="card-text">• Worked with sales, dev, and tech support teams to prioritize needs,
-                            resolve issues, and find solutions for web app, online products, and marketing strategy.
-                        </p>
-                    </div>
-                    <div class="mb-3 mx-3 align-self-start">
-                        <!-- <p class="card-foot">Web app I helped build and maintain:</p> -->
-                        <a href="https://www.planomatic.com/samples" target="_blank"
-                            class="btn btn-primary btn-sm mb-1">PlanOmatic
-                            Samples</a>
-                    </div>
-                </div>
-                <div class="card border border-primary col m-3">
-                    <a href="https://www.activaidioma.com/cat/index.php" target="_blank"><img
-                            class="card-img-top exp-snip" src="images/logo_activa.png" alt="activa-idioma-logo"></a>
-                    <h5 class="card-title">Manager, Marketing & Online Learning</h5>
-                    <h6 class="card-title font-italic">Activa Idioma Academy</h6>
-                    <div class="card-body">
-                        <p class="card-text">• Lead dev team in improving the UX of company website and proprietary
-                            learning platform while considering best practices of SEO, design, and marketing.
-                        </p>
-                        <p class="card-text">• Create/execute marketing strategy using industry and client research to
-                            attract and maintain clients for online and offline English classes; direct teammates to
-                            help carry out campaigns.</p>
-                        <p class="card-text">• Maintain brand’s web presence via website, social media, and ads; design
-                            landing pages, HTML emails, and other digital and print assets for marketing, client
-                            communications, and events.</p>
-                    </div>
-                    <div class="mb-3 mx-3 align-self-start">
-                        <!-- <p class="card-foot">Web pages where I made UX improvements:</p> -->
-                        <a href="https://www.activaidioma.com/cat/index.php" target="_blank"
-                            class="btn btn-primary btn-sm mb-1">Activa Homepage</a>
-                        <a href="https://www.activaidioma.com/cat/online.php" target="_blank"
-                            class="btn btn-primary btn-sm mb-1">OnLive
-                            English</a>
-                    </div>
-                </div>
-            </section>
-            <section class="d-flex justify-content-center align-items-center" role="alert">
-                <p>See more of my work history on <a href="https://www.linkedin.com/in/megandsolga/"
-                        target="_blank">LinkedIn</a></p>
-            </section>
-        </div>
-
-
-        <!-- Education -->
-        <span id="education"></span>
-        <div class="aos-item" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
-            <h2 class="mb-3 pt-5">Education</h2>
-            <table class="table table-secondary table-rounded-lg rounded justify-content-center table-fixed">
-                <tbody>
-                    <tr class="table bg-primary text-white">
-                        <th>Achievement</th>
-                        <th>Institution</th>
-                        <th>Completed</th>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Full Stack Web Development</td>
-                        <td>Covalence</td>
-                        <td>October 2019</td>
-                    </tr>
-                    <tr>
-                        <td>CELTA (Certificate in English Language Teaching to Adults)</td>
-                        <td>University of Cambridge/ILA Vietnam</td>
-                        <td>May 2015</td>
-                    </tr>
-                    <tr>
-                        <td>Bachelor of Arts</td>
-                        <td>University of Minnesota</td>
-                        <td>December 2010</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- About Me -->
-        <span id="interests"></span>
-        <div class="aos-item" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
-            <h2 class="mb-3 pt-8 mt-5">Personal Interests</h2>
-            <div class="container d-flex justify-content-center">
-                <div class="row">
-                    <div class="col-4">
-                        <img class="icon" src="images/music.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="icon" src="images/snow.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="icon" src="images/travel.jpg">
-                    </div>
+                <div class="mb-3 mx-3 align-self-start">
+                    <!-- <p class="card-foot">Check out my code:</p> -->
+                    <a href="https://github.com/solgamd" target="_blank" class="btn btn-primary btn-sm mb-1">
+                        GitHub Profile</a>
                 </div>
             </div>
-            <div class="container d-flex justify-content-center mb-5">
-                <div class="row">
-                    <div class=" col-4">
-                        <img class="icon" src="images/history.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="icon" src="images/yoga.jpg">
-                    </div>
-                    <div class="col-4">
-                        <img class="icon" src="images/fiction.jpg">
-                    </div>
+            <div class="card border border-primary col-md m-3">
+                <a href="https://www.planomatic.com/" target="_blank"><img class="card-img-top exp-snip"
+                        src="images/logo_planomatic.png" alt="planomatic-logo"></a>
+                <h5 class="card-title">Brand Manager</h5>
+                <h6 class="card-title font-italic">PlanOmatic Real Estate Marketing</h6>
+                <div class="card-body">
+                    <p class="card-text">• Built and maintained responsive web app with HTML, CSS, and SEO best
+                        practices using a content
+                        management system;
+                        incorporated web-optimized high-resolution photos using Photoshop.</p>
+                    <p class="card-text">• Frequently performed website updates, tested web app across browsers and
+                        devices and
+                        took customer feedback to identify problems, then worked with dev team on solutions.</p>
+                    <p class="card-text">• Worked with sales, dev, and tech support teams to prioritize needs,
+                        resolve issues, and find solutions for web app, online products, and marketing strategy.
+                    </p>
+                </div>
+                <div class="mb-3 mx-3 align-self-start">
+                    <!-- <p class="card-foot">Web app I helped build and maintain:</p> -->
+                    <a href="https://www.planomatic.com/samples" target="_blank"
+                        class="btn btn-primary btn-sm mb-1">PlanOmatic
+                        Samples</a>
+                </div>
+            </div>
+            <div class="card border border-primary col m-3">
+                <a href="https://www.activaidioma.com/cat/index.php" target="_blank"><img class="card-img-top exp-snip"
+                        src="images/logo_activa.png" alt="activa-idioma-logo"></a>
+                <h5 class="card-title">Manager, Marketing & Online Learning</h5>
+                <h6 class="card-title font-italic">Activa Idioma Academy</h6>
+                <div class="card-body">
+                    <p class="card-text">• Lead dev team in improving the UX of company website and proprietary
+                        learning platform while considering best practices of SEO, design, and marketing.
+                    </p>
+                    <p class="card-text">• Create/execute marketing strategy using industry and client research to
+                        attract and maintain clients for online and offline English classes; direct teammates to
+                        help carry out campaigns.</p>
+                    <p class="card-text">• Maintain brand’s web presence via website, social media, and ads; design
+                        landing pages, HTML emails, and other digital and print assets for marketing, client
+                        communications, and events.</p>
+                </div>
+                <div class="mb-3 mx-3 align-self-start">
+                    <!-- <p class="card-foot">Web pages where I made UX improvements:</p> -->
+                    <a href="https://www.activaidioma.com/cat/index.php" target="_blank"
+                        class="btn btn-primary btn-sm mb-1">Activa Homepage</a>
+                    <a href="https://www.activaidioma.com/cat/online.php" target="_blank"
+                        class="btn btn-primary btn-sm mb-1">OnLive
+                        English</a>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex justify-content-center align-items-center" role="alert">
+            <p>See more of my work history on <a href="https://www.linkedin.com/in/megandsolga/"
+                    target="_blank">LinkedIn</a></p>
+        </section>
+    </div>
+
+
+    <!-- Education -->
+    <span id="education" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease">
+        <h2 class="my-5 pt-5">Education</h2>
+        <table class="table table-secondary table-rounded-lg rounded justify-content-center table-fixed">
+            <tbody>
+                <tr class="table bg-primary text-white">
+                    <th>Achievement</th>
+                    <th>Institution</th>
+                    <th>Completed</th>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Full Stack Web Development</td>
+                    <td>Covalence</td>
+                    <td>October 2019</td>
+                </tr>
+                <tr>
+                    <td>CELTA (Certificate in English Language Teaching to Adults)</td>
+                    <td>University of Cambridge/ILA Vietnam</td>
+                    <td>May 2015</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Arts</td>
+                    <td>University of Minnesota</td>
+                    <td>December 2010</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Interests -->
+    <span id="interests" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
+        <h2 class="my-5 pt-5">Personal Interests</h2>
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-4">
+                    <img class="icon" src="images/music.jpg">
+                </div>
+                <div class="col-4">
+                    <img class="icon" src="images/snow.jpg">
+                </div>
+                <div class="col-4">
+                    <img class="icon" src="images/travel.jpg">
                 </div>
             </div>
         </div>
-
-        <!-- Projects -->
-        <span id="projects"></span>
-        <div class="aos-item" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
-            <h2 class="mb-3 pt-5">Live Projects</h2>
-            <p class="mb-4 text-center font text-secondary">(Heroku load time = a few moments)</p>
-            <div class="row d-flex justify-content-around font mb-5">
-
-                <div class="card proj-card border rounded m-2">
-                    <img class="card-img-top proj-snip" src="images/blog-prev2.jpg" alt="Card image cap">
-                    <div class="card-body card-body-proj">
-                        <h5 class="card-title">Blog</h5>
-                        <p class="card-text font-italic text-secondary">A full stack blog. Note: Please open the dev
-                            console.</p>
-                        <hr>
-                        <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
-                        <ul>
-                            <li>React + Hooks</li>
-                            <li>Typescript</li>
-                            <li>HTML</li>
-                            <li>SASS & Bootstrap</li>
-                            <li>MySQL</li>
-                            <li>PassportJS</li>
-                            <li>Stripe & Mailgun APIs</li>
-                        </ul>
-                    </div>
-                    <div class="mb-3 mx-3">
-                        <a href="http://bit.ly/2qmOSnV" target="_blank" class="project-btn btn btn-primary ">Go to
-                            App</a>
-                    </div>
+        <div class="container d-flex justify-content-center mb-5">
+            <div class="row">
+                <div class=" col-4">
+                    <img class="icon" src="images/history.jpg">
                 </div>
-                <div class="card proj-card border rounded m-2">
-                    <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="Card image cap">
-                    <div class="card-body card-body-proj">
-                        <h5 class="card-title">Typing Game</h5>
-                        <p class="card-text font-italic text-secondary">A typing game that tests your speed and
-                            accuracy.
-                        </p>
-                        <hr>
-                        <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
-                        <ul>
-                            <li>jQuery</li>
-                            <li>HTML</li>
-                            <li>CSS/Bootstrap</li>
-                            <li>Node/Express</li>
-                        </ul>
-                    </div>
-                    <div class="mb-3 mx-3">
-                        <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary" target="_blank">Go to
-                            App</a>
-                    </div>
+                <div class="col-4">
+                    <img class="icon" src="images/yoga.jpg">
                 </div>
-
-                <div class="card proj-card border rounded m-2">
-                    <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="Card image cap">
-                    <div class="card-body card-body-proj">
-                        <h5 class="card-title">Shape Drawing App</h5>
-                        <p class="card-text font-italic text-secondary">An app that lets you draw shapes onto a canvas.
-                        </p>
-                        <hr>
-                        <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
-                        <ul>
-                            <li>jQuery</li>
-                            <li>OOP</li>
-                            <li>HTML</li>
-                            <li>CSS/Bootstrap</li>
-                            <li>Node/Express</li>
-                        </ul>
-                    </div>
-                    <div class="mb-3 mx-3">
-                        <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary" target="_blank">Go
-                            to App</a>
-                    </div>
-
-                </div>
-
-                <div class="card proj-card border rounded m-2">
-                    <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="Card image cap">
-                    <div class="card-body card-body-proj">
-                        <h5 class="card-title">Tarot Reader</h5>
-                        <p class="card-text font-italic text-secondary">A tarot card app to help you ponder life's next
-                            steps.</p>
-                        <hr>
-                        <h6 class="mt-3 font text-underline"><u>Built With:</u></h6>
-                        <ul>
-                            <li>React Hooks</li>
-                            <li>HTML</li>
-                            <li>SASS & Bootstrap</li>
-                            <li>Node/Express</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="mb-3 mx-3">
-                        <a href="http://bit.ly/2DfPRt4" class="project-btn btn btn-primary text-white"
-                            target="_blank">Go
-                            to
-                            App</a>
-                    </div>
+                <div class="col-4">
+                    <img class="icon" src="images/fiction.jpg">
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Projects -->
+    <span id="projects" style="padding-top: 40px; margin-top: -40px;"></span>
+    <div class="aos-item mt-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
+        <h2 class="mb-3 pt-5">Live Projects</h2>
+        <p class="mb-5 text-center font text-secondary">(Heroku load time = a few moments)</p>
+        <div class="row d-flex justify-content-around font mb-5">
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip" src="images/blog-prev2.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Blog</h5>
+                    <p class="card-text font-italic text-secondary">A full stack blog. Note: Please open the dev
+                        console.</p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
+                    <ul>
+                        <li>React + Hooks</li>
+                        <li>Typescript</li>
+                        <li>HTML</li>
+                        <li>SASS & Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>PassportJS</li>
+                        <li>Stripe & Mailgun APIs</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2qmOSnV" target="_blank" class="project-btn btn btn-primary ">Go to
+                        App</a>
+                </div>
+            </div>
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Typing Game</h5>
+                    <p class="card-text font-italic text-secondary">A typing game that tests your speed and
+                        accuracy.
+                    </p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>HTML</li>
+                        <li>CSS/Bootstrap</li>
+                        <li>Node/Express</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary" target="_blank">Go to
+                        App</a>
+                </div>
+            </div>
+
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Shape Drawing App</h5>
+                    <p class="card-text font-italic text-secondary">An app that lets you draw shapes onto a canvas.
+                    </p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>OOP</li>
+                        <li>HTML</li>
+                        <li>CSS/Bootstrap</li>
+                        <li>Node/Express</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary" target="_blank">Go
+                        to App</a>
+                </div>
+
+            </div>
+
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Tarot Reader</h5>
+                    <p class="card-text font-italic text-secondary">A tarot card app to help you ponder life's next
+                        steps.</p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built With:</u></h6>
+                    <ul>
+                        <li>React Hooks</li>
+                        <li>HTML</li>
+                        <li>SASS & Bootstrap</li>
+                        <li>Node/Express</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2DfPRt4" class="project-btn btn btn-primary text-white" target="_blank">Go
+                        to
+                        App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <!-- Footer -->
     <div class="jumbotron rounded bg-primary contact-footer">
         <h4 class="display-5">Megan Solga</h4>
-        <h5 class="subline">Full Stack Web Developer | Marketer | Teacher</h5>
+        <h6 class="subline">Full Stack Web Developer | Marketer | Teacher</h6>
         <table class="table table-borderless">
             <tbody class="contact">
                 <tr>
