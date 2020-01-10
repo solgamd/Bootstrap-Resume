@@ -2,19 +2,21 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Play|Sarala&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
+<link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Megan Solga Resume</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
+   
 </head>
 
 <body>
     <section class="navbar navbar-fixed-top sticky-top navbar-collapse hidden-xs hidden-sm"
-        style="background-color: whitesmoke">
+        style="background-color: lightgrey">
         <div class="col-sm-4">
             <a href="/">
                 <h1>Megan Solga</h1>
@@ -57,8 +59,8 @@
         <h2 class="my-5 pt-5">About</h2>
         <section class="row d-flex mx-3">
             <div class="col-sm-6">
-                <div class="bubble1"></div>
-                <div class="bubble2"></div>
+                <div class="bubble-1"></div>
+                <div class="bubble-2"></div>
             </div>
             <div class="col p-3 d-flex flex-column">
                 <p class="my-2">I’m a driven self-starter who’s gained invaluable experience living and working in Asia,
@@ -69,9 +71,8 @@
     </div>
     <!-- Skills -->
     <span id="devskills" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Dev Skills</h2>
-        <hr class="mb-3">
         <section class="row d-flex mb-4 m-0 p-3 skills text-center rounded">
             <div class="col-sm">
                 <ul class="list-group">
@@ -218,7 +219,7 @@
 
     <!-- Interests -->
     <span id="interests" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Personal Interests</h2>
         <div class="container d-flex justify-content-center">
             <div class="row">
@@ -249,9 +250,9 @@
     </div>
 
     <!-- Projects -->
-    <span id="projects" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
-        <h2 class="mb-3 pt-5">Live Projects</h2>
+    <span id="projects" style="padding-top: 40px; margin-top: -40px; font-family: 'Play', sans-serif;"></span>
+    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="250" data-aos-easing="ease">
+        <h2 class="my-5 pt-5">Live Projects</h2>
         <p class="mb-5 text-center font text-secondary">(Heroku load time = a few moments)</p>
         <div class="row d-flex justify-content-around font mb-5">
             <div class="card proj-card border rounded m-2">
@@ -278,51 +279,6 @@
                 </div>
             </div>
             <div class="card proj-card border rounded m-2">
-                <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="Card image cap">
-                <div class="card-body card-body-proj">
-                    <h5 class="card-title">Typing Game</h5>
-                    <p class="card-text font-italic text-secondary">A typing game that tests your speed and
-                        accuracy.
-                    </p>
-                    <hr>
-                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
-                    <ul>
-                        <li>jQuery</li>
-                        <li>HTML</li>
-                        <li>CSS/Bootstrap</li>
-                        <li>Node/Express</li>
-                    </ul>
-                </div>
-                <div class="mb-3 mx-3">
-                    <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary" target="_blank">Go to
-                        App</a>
-                </div>
-            </div>
-
-            <div class="card proj-card border rounded m-2">
-                <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="Card image cap">
-                <div class="card-body card-body-proj">
-                    <h5 class="card-title">Shape Drawing App</h5>
-                    <p class="card-text font-italic text-secondary">An app that lets you draw shapes onto a canvas.
-                    </p>
-                    <hr>
-                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
-                    <ul>
-                        <li>jQuery</li>
-                        <li>OOP</li>
-                        <li>HTML</li>
-                        <li>CSS/Bootstrap</li>
-                        <li>Node/Express</li>
-                    </ul>
-                </div>
-                <div class="mb-3 mx-3">
-                    <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary" target="_blank">Go
-                        to App</a>
-                </div>
-
-            </div>
-
-            <div class="card proj-card border rounded m-2">
                 <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="Card image cap">
                 <div class="card-body card-body-proj">
                     <h5 class="card-title">Tarot Reader</h5>
@@ -344,12 +300,54 @@
                         App</a>
                 </div>
             </div>
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Shape Drawing App</h5>
+                    <p class="card-text font-italic text-secondary">An app that lets you draw shapes onto a canvas.
+                    </p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>OOP</li>
+                        <li>HTML</li>
+                        <li>CSS/Bootstrap</li>
+                        <li>Node/Express</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary" target="_blank">Go
+                        to App</a>
+                </div>
+            </div>
+            <div class="card proj-card border rounded m-2">
+                <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="Card image cap">
+                <div class="card-body card-body-proj">
+                    <h5 class="card-title">Typing Game</h5>
+                    <p class="card-text font-italic text-secondary">A typing game that tests your speed and
+                        accuracy.
+                    </p>
+                    <hr>
+                    <h6 class="mt-3 font text-underline"><u>Built Using:</u></h6>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>HTML</li>
+                        <li>CSS/Bootstrap</li>
+                        <li>Node/Express</li>
+                    </ul>
+                </div>
+                <div class="mb-3 mx-3">
+                    <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary" target="_blank">Go to
+                        App</a>
+                </div>
+            </div>
         </div>
     </div>
     </div>
 
     <!-- Footer -->
-    <div class="jumbotron rounded bg-primary contact-footer">
+    <!-- <div class="jumbotron rounded bg-primary contact-footer">
         <h4 class="display-5">Megan Solga</h4>
         <h6 class="subline">Full Stack Web Developer | Marketer | Teacher</h6>
         <table class="table table-borderless">
@@ -360,7 +358,7 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
     </div>
 </body>
 <div class="credits mt-4">Icons made by <a href="https://www.flaticon.com/authors/smashicons"

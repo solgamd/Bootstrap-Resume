@@ -1,28 +1,20 @@
-
-@font-face {
-    font-family: 'Saira Extra Condensed', sans-serif;
-    src: url('fonts/SairaExtraCondensed-Regular.ttf') format('truetype');
-}
-
 $primary: #C9672A;
 $secondary: #F9F6E5;
 $info: #437C90;
 $dark: #373E40; 
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    font-family: 'Play', sans-serif;
 }
 
 .navbar {
     position: fixed;
-    background-color: white;
-    border: 1px solid #C9672A;
-    color: white;
-    font-family: 'Saira Extra Condensed', sans-serif;
-
+    background-color: lightgrey;
+    color: #C9672A;
 }
 
-.bubble1 {
+.bubble-1 {
     position: absolute;
     margin-right: 20px;
     height: 100px;
@@ -32,7 +24,7 @@ body {
     display: block
 }
 
-.bubble2 {
+.bubble-2 {
     position: absolute;
     margin-left: 20px;
     height: 100px;
@@ -41,11 +33,6 @@ body {
     background-color: purple;
     display: block
 }
-
-// .jumbotron {
-//     font-family: 'Sarala', sans-serif;
-//     padding: 20px 10px 20px 10px;
-// }
 
 .rounded-circle {
     height: 5em;
@@ -68,16 +55,15 @@ body {
 
 .badge {
     color: #C9672A;
+    font-family: 'Play', sans-serif;
 }
 
 .skills {
-    // font-family: 'Sarala', sans-serif;
     font-size: 16px;
     text-align: center;
 }
 
 .alert {
-    // font-family: 'Sarala', sans-serif;
     padding-top: 10px;
     padding-bottom: 0px
 }
@@ -101,13 +87,13 @@ body {
 }
 
 .card-title {
-    // font-family: 'Sarala', sans-serif;
+    font-family: 'Play', sans-serif;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .card-text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Play', sans-serif;
 }
 
 // .card-foot {
@@ -120,7 +106,6 @@ body {
 }
 
 .table {
-    font-family: 'Saira Extra Condensed', sans-serif;
     margin-bottom: 150px
 }
 
@@ -135,17 +120,15 @@ body {
     padding-bottom: .75em; 
 }
 
-h1 {
-    font-family: 'Saira Extra Condensed', sans-serif;
-}
+// h1 {
+
+// }
 
 h2 {
-    // font-family: 'Open Sans';
-    // font-family: 'Sarala', sans-serif;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    text-align: center;
     color: #4b4f4f;
-    font-weight: 800
+    font-weight: 800;
+    margin-left: 100px
+
 }
 
 li {
@@ -178,7 +161,6 @@ li {
 
 .contact-footer {
     color: white;
-    // font-family: 'Sarala', sans-serif;
     padding-bottom: 4px;
 }
 
