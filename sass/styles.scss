@@ -4,49 +4,43 @@ $info: #437C90;
 $dark: #373E40; 
 
 body {
-    margin: 50px;
+    // margin: 50px;
     font-family: 'Play', sans-serif;
 }
 
 .navbar {
     position: fixed;
-    background-color: lightgrey;
+    background-color: white;
     color: #C9672A;
+    border-bottom-width: 1px;
+    border-bottom-color: #C9672A;
+    border-bottom-style: solid;
 }
 
 .rounded-circle {
     height: 5em;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-around;
-    color: white
-}
-
-.lead1 {
-    font-size: 18px;
-    font-weight: 800;
-}
-
-.current {
-    font-size: 14px;
-}
+// .contact {                   // for footer jumbotron
+//     display: flex;
+//     justify-content: space-around;
+//     color: white
+// }
 
 .badge {
     color: #C9672A;
-    font-family: 'Play', sans-serif;
 }
 
 .skills {
     font-size: 16px;
     text-align: center;
+    font-family: 'Play', sans-serif;
 }
 
-.alert {
-    padding-top: 10px;
-    padding-bottom: 0px
-}
+// .alert {                        // doesn't affect alert
+//     padding-top: 10px;
+//     padding-bottom: 0px
+// }
 
 .exp-snip {
     max-height: 100px;
@@ -67,18 +61,13 @@ body {
 }
 
 .card-title {
-    font-family: 'Play', sans-serif;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 12px
 }
 
-.card-text {
-    font-family: 'Play', sans-serif;
-}
-
-// .card-foot {
-//     // font-family: 'Sarala', sans-serif;
-
+// .card-text {
+//     font-family: 'Play', sans-serif;  // not working
 // }
 
 .card-body-proj {
@@ -89,16 +78,16 @@ body {
     margin-bottom: 150px
 }
 
-.display-5 {
-    text-align: center;
-    font-size: 2.25em;
-}
+// .display-5 {                 // title jumbotron
+//     text-align: center;
+//     font-size: 2.25em;
+// }
 
-.subline {
-    text-align: center;
-    font-size: 1.25em;
-    padding-bottom: .75em; 
-}
+// .subline {                   // jumbotrons
+//     text-align: center;
+//     font-size: 1.25em;
+//     padding-bottom: .75em; 
+// }
 
 // h1 {
 
@@ -111,18 +100,6 @@ h2 {
 
 }
 
-li {
-    font-size: 16px;
-}
-
-// .btn {
-//     // font-family: 'Sarala', sans-serif;
-// }
-
-// .font {
-//     // font-family: 'Sarala', sans-serif;
-// }
-
 .proj-card {
     max-width: 250px;
     align-content: center;
@@ -130,7 +107,6 @@ li {
 
 .project-btn {
     padding: 5px 10px 5px 10px;
-
 }
 
 .p-jumbo {
