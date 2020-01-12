@@ -18,33 +18,33 @@
 <body>
     <nav id="main-nav" class="navbar sticky-top" style="background-color: rgb(238, 238, 238)" role="navigation">
         <div class="container">
-            <a class="navbar-brand col-sm-3" href="#">
+            <!-- <a class="navbar-brand col-sm-4" href="#">
                 <h1>Megan Solga</h1>
                 <h6 class="text-primary">Full Stack Software Developer | Marketer | Teacher</h6>
-            </a>
+            </a> -->
+            <a class="navbar-brand" href="#">Megan Solga</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResume"
                 aria-controls="navbarResume" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+        
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="nav navbar-nav">
+                <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#devskills">Skills</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#interests">Interests</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#projects">Projects</a></li>
+            </ul>
+            <!-- <a href="#about" class="mx-2">About</a>
+            <a href="#devskills" class="mx-2">Skills</a>
+            <a href="#experience" class="mx-2">Experience</a>
+            <a href="#education" class="mx-2">Education</a>
+            <a href="#interests" class="mx-2">Interests</a>
+            <a href="#projects" class="mx-2">Projects</a> -->
         </div>
-            
-            <div class="col-5 collapse navbar-collapse d-flex justify-content-end">
-                <!-- <ul class="nav navbar-nav">
-                    <li class="nav-item"><a href="#about" class="mx-2 nav-link">About</a></li>
-                    <li class="nav-item"><a href="#devskills" class="mx-2 nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#experience" class="mx-2 nav-link">Experience</a></li>
-                    <li class="nav-item"><a href="#education" class="mx-2 nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#interests" class="mx-2 nav-link">Interests</a></li>
-                    <li class="nav-item"><a href="#projects" class="mx-2 nav-link">Projects</a></li>
-                </ul> -->
-                <a href="#about" class="mx-2 nav-link">About</a>
-                <a href="#devskills" class="mx-2 nav-link">Skills</a>
-                <a href="#experience" class="mx-2 nav-link">Experience</a>
-                <a href="#education" class="mx-2 nav-link">Education</a>
-                <a href="#interests" class="mx-2 nav-link">Interests</a>
-                <a href="#projects" class="mx-2 nav-link">Projects</a>
-            </div>
-   
+</div>
     </nav>
     <!-- <div class="container-fluid">
         <div class="outline bg-primary text-white text-center">
@@ -411,22 +411,33 @@
 <script>
     AOS.init({ duration: 400 });
 
-    $(document).ready(function () {
-        toggleNav();
-    });
+    $(document).ready(() => {
+        $('.collapse').collapse('show');
+    })
 
     $(window).scroll(function () {
-        toggleNav();
+        $('.collapse').collapse('hide');
     });
 
-    function toggleNav() {
-        if ($('#main-nav').scrollTop() >= 100) {
-            $('.navbar').removeClass('navbar-expand');
-        } else if
-            ($('#main-nav').scrollTop() < 100) {
-            $('.navbar').addClass('navbar-expand');
-        }
-    };
+    // $(document).ready(function () {
+    //     toggleNav();
+    // });
+
+    // toggleNav();
+
+    // $(window).scroll(function () {
+    //     toggleNav();
+    // });
+
+    // function toggleNav() {
+    //     var navbar = $('#main-nav');
+    //     if ($(this).scrollTop() >= 100) {
+    //         $('.navbar').removeClass('navbar-expand');
+    //     } else if
+    //         ($(this).scrollTop() < 100) {
+    //         $('.navbar').addClass('navbar-expand');
+    //     }
+    // };
 
     // $(document).ready(function () {
     //     function checkOffset() {
