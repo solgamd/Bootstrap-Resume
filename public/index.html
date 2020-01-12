@@ -16,22 +16,35 @@
 </head>
 
 <body>
-    <nav class="navbar top-nav-collapse navbar-fixed-top sticky-top"
-        style="background-color: rgb(238, 238, 238)" role="navigation">
-        <div class="col-sm-4">
-            <a href="/">
+    <nav id="main-nav" class="navbar sticky-top" style="background-color: rgb(238, 238, 238)" role="navigation">
+        <div class="container">
+            <a class="navbar-brand col-sm-3" href="#">
                 <h1>Megan Solga</h1>
+                <h6 class="text-primary">Full Stack Software Developer | Marketer | Teacher</h6>
             </a>
-            <h6 class="text-primary">Full Stack Software Developer | Marketer | Teacher</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResume"
+                aria-controls="navbarResume" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-        <div class="col-sm-8 navbar-links d-flex justify-content-end">
-            <a href="#about" class="mx-2">About</a>
-            <a href="#devskills" class="mx-2">Skills</a>
-            <a href="#experience" class="mx-2">Experience</a>
-            <a href="#education" class="mx-2">Education</a>
-            <a href="#interests" class="mx-2">Interests</a>
-            <a href="#projects" class="mx-2">Projects</a>
-        </div>
+            
+            <div class="col-5 collapse navbar-collapse d-flex justify-content-end">
+                <!-- <ul class="nav navbar-nav">
+                    <li class="nav-item"><a href="#about" class="mx-2 nav-link">About</a></li>
+                    <li class="nav-item"><a href="#devskills" class="mx-2 nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="mx-2 nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="mx-2 nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#interests" class="mx-2 nav-link">Interests</a></li>
+                    <li class="nav-item"><a href="#projects" class="mx-2 nav-link">Projects</a></li>
+                </ul> -->
+                <a href="#about" class="mx-2 nav-link">About</a>
+                <a href="#devskills" class="mx-2 nav-link">Skills</a>
+                <a href="#experience" class="mx-2 nav-link">Experience</a>
+                <a href="#education" class="mx-2 nav-link">Education</a>
+                <a href="#interests" class="mx-2 nav-link">Interests</a>
+                <a href="#projects" class="mx-2 nav-link">Projects</a>
+            </div>
+   
     </nav>
     <!-- <div class="container-fluid">
         <div class="outline bg-primary text-white text-center">
@@ -70,7 +83,8 @@
                 </div>
             </div>
             <div class="col p-3 mx-5 d-flex flex-column bg-primary text-white rounded-lg shadow">
-                <p>I’m a driven self-starter who's gained invaluable experience at the intersection of tech, education,
+                <p>I’m a driven self-starter who's gained invaluable experience at the intersection of tech,
+                    education,
                     and marketing while living and working in Asia,
                     Europe, and the USA.</p>
                 <p>I'll help your organization bridge the gap between your
@@ -123,11 +137,14 @@
                 <div class="card-body">
                     <p class="card-text">• Build custom websites to client’s specifications using JavaScript, HTML5,
                         CSS3,
-                        MySQL; utilize WordPress, 3rd party APIs and plugins for added functionality and features.</p>
-                    <p class="card-text">• Research the industry and users and analyze business needs in order to select
+                        MySQL; utilize WordPress, 3rd party APIs and plugins for added functionality and features.
+                    </p>
+                    <p class="card-text">• Research the industry and users and analyze business needs in order to
+                        select
                         most suitable tech requirements for the best performance, speed, and UX.
                     </p>
-                    <p class="card-text">• Monitor apps for bugs and package updates to maintain highest performance and
+                    <p class="card-text">• Monitor apps for bugs and package updates to maintain highest performance
+                        and
                         ensure scalability with needs of the business and user/customer base.</p>
                 </div>
                 <div class="mb-3 mx-3 align-self-start">
@@ -259,7 +276,7 @@
 
     <!-- Projects -->
     <span id="projects" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="100"  data-aos-easing="ease">
+    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Live Projects</h2>
         <p class="mb-5 text-center text-secondary">(Heroku load time = a few moments)</p>
         <div class="row d-flex justify-content-around mb-5">
@@ -394,20 +411,38 @@
 <script>
     AOS.init({ duration: 400 });
 
-    $(document).ready(function() {
-        function checkOffset() {
-        if ($('.navbar').offset().top > 50) {
-            $('.navbar-fixed-top').addClass('top-nav-collapse');
-        } else {
-            $('.navbar-fixed-top').removeClass('top-nav-collapse');
-        }}
+    $(document).ready(function () {
+        toggleNav();
     });
 
-    checkOffset();
-
-    $(window).scroll(function() {
-        checkOffset();
+    $(window).scroll(function () {
+        toggleNav();
     });
+
+    function toggleNav() {
+        if ($('#main-nav').scrollTop() >= 100) {
+            $('.navbar').removeClass('navbar-expand');
+        } else if
+            ($('#main-nav').scrollTop() < 100) {
+            $('.navbar').addClass('navbar-expand');
+        }
+    };
+
+    // $(document).ready(function () {
+    //     function checkOffset() {
+    //         if ($('.navbar').offset().top > 50) {
+    //             $('.navbar-fixed-top').addClass('top-nav-collapse');
+    //         } else {
+    //             $('.navbar-fixed-top').removeClass('top-nav-collapse');
+    //         }
+    //     }
+    // });
+
+    // checkOffset();
+
+    // $(window).scroll(function () {
+    //     checkOffset();
+    // });
 
 </script>
 
