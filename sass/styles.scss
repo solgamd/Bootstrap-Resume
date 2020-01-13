@@ -10,22 +10,12 @@ $dark: #373E40;
 
 body {
     margin-top: 50px;
-    font-family: 'Play', sans-serif !important;
-}
-
-* {
-    font-family: 'Play', sans-serif !important;
-
 }
 
 .navbar {
     position: fixed;
     top:0;
-    background-color: white;
     color: #C9672A;
-    border-bottom-width: 1px;
-    border-bottom-color: #C9672A;
-    border-bottom-style: solid;
 }
 
 .rounded-circle {
@@ -120,16 +110,10 @@ h2 {
     padding: 5px 10px 5px 10px;
 }
 
-.p-jumbo {
-    text-align: center;
-    font-size: 1em;
-    margin: -30px 0 -5px 0;
-}
-
-.contact-footer {
-    color: white;
-    padding-bottom: 4px;
-}
+// .contact-footer {          // jumbotron
+//     color: white;
+//     padding-bottom: 4px;
+// }
 
 .credits {
     display:flex;
