@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Play", sans-serif;
+  src: local("fonts/Play/Play-Regular.ttf") format("ttf");
+}
+body {
+  margin-top: 50px;
+  font-family: "Play", sans-serif !important;
+}
+
+* {
+  font-family: "Play", sans-serif !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  color: #C9672A;
+  border-bottom-width: 1px;
+  border-bottom-color: #C9672A;
+  border-bottom-style: solid;
+}
+
+.rounded-circle {
+  height: 5em;
+}
+
+.badge {
+  color: #C9672A;
+}
+
+.skills {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Play", sans-serif;
+}
+
+.exp-snip {
+  max-height: 100px;
+  max-width: 200px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.img-snip {
+  max-width: 250px;
+}
+
+.card {
+  display: flex;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.card-body-proj {
+  padding-bottom: 5px;
+}
+
+.table {
+  margin-bottom: 150px;
+}
+
+h2 {
+  color: #4b4f4f;
+  font-weight: 800;
+  margin-left: 100px;
+}
+
+.proj-card {
+  max-width: 250px;
+  align-content: center;
+}
+
+.project-btn {
+  padding: 5px 10px 5px 10px;
+}
+
+.p-jumbo {
+  text-align: center;
+  font-size: 1em;
+  margin: -30px 0 -5px 0;
+}
+
+.contact-footer {
+  color: white;
+  padding-bottom: 4px;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+}
+
+.icon {
+  height: 7em;
+  width: 7em;
+  margin: 1em;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -3,9 +3,19 @@ $secondary: #F9F6E5;
 $info: #437C90;
 $dark: #373E40; 
 
+@font-face {
+    font-family: 'Play', sans-serif;
+    src: local("fonts/Play/Play-Regular.ttf") format('ttf');
+}
+
 body {
     margin-top: 50px;
-    font-family: 'Play', sans-serif;
+    font-family: 'Play', sans-serif !important;
+}
+
+* {
+    font-family: 'Play', sans-serif !important;
+
 }
 
 .navbar {
