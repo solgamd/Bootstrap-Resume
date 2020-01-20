@@ -5,17 +5,24 @@ $dark: #373E40;
 
 @font-face {
     font-family: 'Play', sans-serif;
-    src: local("fonts/Play/Play-Regular.ttf") format('ttf');
+    src: url("https://fonts.googleapis.com/css?family=Play");
 }
 
 body {
     margin-top: 50px;
+    font-family: 'Play', sans-serif;
 }
 
 .navbar {
     position: fixed;
     top:0;
     color: #C9672A;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1920px) {
+    .nav-collapse {
+        display: none;
+    }
 }
 
 .rounded-circle {
@@ -37,11 +44,6 @@ body {
     text-align: center;
     font-family: 'Play', sans-serif;
 }
-
-// .alert {                        // doesn't affect alert
-//     padding-top: 10px;
-//     padding-bottom: 0px
-// }
 
 .exp-snip {
     max-height: 100px;
@@ -67,34 +69,20 @@ body {
     font-size: 12px
 }
 
-// .card-text {
-//     font-family: 'Play', sans-serif;  // not working
-// }
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    float: center
+}
 
 .card-body-proj {
     padding-bottom: 5px
 }
 
-// .display-5 {                 // title jumbotron
-//     text-align: center;
-//     font-size: 2.25em;
-// }
-
-// .subline {                   // jumbotrons
-//     text-align: center;
-//     font-size: 1.25em;
-//     padding-bottom: .75em; 
-// }
-
-// h1 {
-
-// }
-
 h2 {
     color: #4b4f4f;
     font-weight: 800;
-    margin-left: 100px
-
+    margin-left: 100px;
 }
 
 .proj-card {
@@ -104,12 +92,8 @@ h2 {
 
 .project-btn {
     padding: 5px 10px 5px 10px;
+    font-family: 'Play', sans-serif;
 }
-
-// .contact-footer {          // jumbotron
-//     color: white;
-//     padding-bottom: 4px;
-// }
 
 .credits {
     display:flex;
