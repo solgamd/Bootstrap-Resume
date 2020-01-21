@@ -19,21 +19,9 @@ body {
     color: #C9672A;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1920px) {
-    .nav-collapse {
-        display: none;
-    }
-}
-
 .rounded-circle {
     height: 5em;
 }
-
-// .contact {                   // for footer jumbotron
-//     display: flex;
-//     justify-content: space-around;
-//     color: white
-// }
 
 .badge {
     color: #C9672A;
