@@ -40,21 +40,6 @@ body {
     margin-bottom: 2em;
 }
 
-// #card {
-//     display: flex;
-//     overflow-wrap: break-word;
-//     justify-content: center;
-//     align-items: center;    
-// }
-
-.front {
-    background-color: blue;
-}
-
-.back {
-    
-}
-
 .card { 
     display: flex;
     overflow-wrap: break-word;
@@ -68,10 +53,11 @@ body {
     
 // }
 
+
 .card-title {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 30px;
 }
 
 .table {
