@@ -40,16 +40,33 @@ body {
     margin-bottom: 2em;
 }
 
-.img-snip {
-    max-width: 250px;
+#card {
+    display: flex;
+    overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;    
 }
 
-.card {
+.front {
+    background-color: blue;
+}
+
+.back {
+    
+}
+
+.card { 
     display: flex;
     overflow-wrap: break-word;
     justify-content: center;
     align-items: center;
+    min-width: 75%;
 }
+
+// .proj-card {
+//     align-content: center;
+    
+// }
 
 .card-title {
     text-align: center;
@@ -63,19 +80,10 @@ body {
     float: center
 }
 
-.card-body-proj {
-    padding-bottom: 5px
-}
-
 h2 {
     color: #4b4f4f;
     font-weight: 800;
     margin-left: 100px;
-}
-
-.proj-card {
-    max-width: 250px;
-    align-content: center;
 }
 
 .project-btn {
