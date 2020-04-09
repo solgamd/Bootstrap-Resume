@@ -35,6 +35,9 @@
                     <a class="nav-link" href="#devskills">Skills</a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item active">
@@ -42,9 +45,6 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#interests">Interests</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
             </ul>
         </div>
@@ -95,7 +95,7 @@
     <span id="devskills" style="padding-top: 40px; margin-top: -40px;"></span>
     <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Dev Skills</h2>
-        <section class="row d-flex mb-4 m-0 p-3 mb-5 pb-5 skills text-center rounded">
+        <section class="row d-flex mb-4 m-0 p-3 skills text-center rounded">
             <div class="col-sm mb-5 pb-5">
                 <ul class="list-group">
                     <h3><span class="badge badge-primary shadow">✔︎ JavaScript</span></h3>
@@ -123,13 +123,133 @@
         </section>
     </div>
 
+    <!-- Projects -->
+    <span id="projects" style="padding-top: 40px; margin-top: 40px;"></span>
+    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
+        <h2 class="my-5 pt-5">Live Projects</h2>
+        <p class="mb-5 text-center text-secondary">(Heroku load time = a few moments)</p>
+        <section class="row justify-content-center mb-5">
+            <div class="col-10 mx-5">
+                <!--------Group of Cards ---->
+                <div class="row d-flex justify-content-center mb-5">
+                    <div class="card proj-card border rounded m-2 shadow">
+                        <img class="card-img-top proj-snip" src="images/blog-prev.jpg" alt="blog image">
+                        <div class="card-body card-body-proj">
+                            <h5 class="card-title">Blog</h5>
+                            <p class="card-text text-secondary">An blog website with login, payment, and email
+                                capabilities. </p>
+                            <hr>
+                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
+                            <ul>
+                                <li>React (+ Hooks)</li>
+                                <li>Typescript</li>
+                                <li>HTML</li>
+                                <li>SASS</li>
+                                <li>Bootstrap</li>
+                                <li>Node & Express</li>
+                                <li>MySQL & Knex</li>
+                                <li>PassportJS</li>
+                                <li>Stripe & Mailgun APIs</li>
+                            </ul>
+                        </div>
+                        <div class="mb-3 mx-2">
+                            <a href="http://bit.ly/2qmOSnV" target="_blank" class="project-btn btn btn-primary mx-1"
+                                aria-label="Go to App">Go to
+                                App</a>
+                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
+                                data-target="#modal-blog" aria-label="Details">Details</button>
+                        </div>
+                    </div>
+                    <div class="card proj-card border rounded m-2 shadow">
+                        <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="tarot reader image">
+                        <div class="card-body card-body-proj">
+                            <h5 class="card-title">Tarot Reader</h5>
+                            <p class="card-text text-secondary">A tarot card app to help you ponder life's
+                                next
+                                steps.</p>
+                            <hr>
+                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
+                            <ul>
+                                <li>React Hooks</li>
+                                <li>HTML</li>
+                                <li>SASS</li>
+                                <li>Bootstrap</li>
+                                <li>Node & Express</li>
+                                <li>MySQL & Knex</li>
+                            </ul>
+                        </div>
+                        <div class="mb-3 mx-3">
+                            <a href="http://bit.ly/2DfPRt4" class="project-btn btn btn-primary text-white mx-1"
+                                target="_blank" aria-label="Go to App">Go
+                                to
+                                App</a>
+                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
+                                data-target="#modal-tarot" aria-label="Details">Details</button>
+                        </div>
+                    </div>
+                    <div class="card proj-card border rounded m-2 shadow">
+                        <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="shape game image">
+                        <div class="card-body card-body-proj">
+                            <h5 class="card-title">Shape Drawing App</h5>
+                            <p class="card-text text-secondary">An app where you can draw shapes onto a
+                                canvas.
+                            </p>
+                            <hr>
+                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
+                            <ul>
+                                <li>jQuery</li>
+                                <li>OOP</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Node & Express</li>
+                            </ul>
+                        </div>
+                        <div class="mb-3 mx-3">
+                            <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary mx-1" target="_blank"
+                                aria-label="Go to App">Go
+                                to App</a>
+                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
+                                data-target="#modal-shape" aria-label="Details">Details</button>
+                        </div>
+                    </div>
+                    <div class="card proj-card border rounded m-2 shadow">
+                        <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="typing game image">
+                        <div class="card-body card-body-proj">
+                            <h5 class="card-title">Typing Game</h5>
+                            <p class="card-text text-secondary">A typing game that tests your speed and
+                                accuracy.
+                            </p>
+                            <hr>
+                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
+                            <ul>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Node & Express</li>
+                            </ul>
+                        </div>
+                        <div class="mb-3 mx-3">
+                            <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary mx-1" target="_blank"
+                                aria-label="Go to App">Go to
+                                App</a>
+                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
+                                data-target="#modal-type" aria-label="Details">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <!-- Experience -->
     <span id="experience" style="padding-top: 80px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5 mx-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Relevant Experience</h2>
         <section class="row justify-content-center">
 
-            <div class="col-lg-3 border border-primary rounded m-2 shadow text-center">
+            <div class="col-lg-3 col-md-10 border border-primary rounded m-2 shadow text-center">
                 <a href="#" target="_blank"><img class="card-img  exp-snip" src="images/logo-freelance.png"
                         alt="freelance-logo"></a>
                 <h6 class="card-title">Web Development & Design</h6>
@@ -144,7 +264,7 @@
                         performance.
                     </p>
                     <p class="card-text">• Execute content updates and support requests from clients; monitor web
-                        apps for bugs and package updates to maintain optimal functionality, speed, and scalability.
+                        apps for bugs and package updates to maintain optimal performance, speed, and scalability.
                     </p>
                 </div>
                 <div class="mb-3 mx-3 align-self-start">
@@ -153,14 +273,14 @@
                         GitHub Profile</a>
                 </div>
             </div>
-            <div class="col-lg-3 border border-primary rounded m-2 shadow text-center">
+            <div class="col-lg-3 col-md-10 border border-primary rounded m-2 shadow text-center">
                 <a href="https://www.activaidioma.com/cat/index.php" target="_blank"><img class="card-img-top exp-snip"
                         src="images/logo_activa.png" alt="activa-idioma-logo"></a>
                 <h6 class="card-title">Manager, Marketing & Online Learning</h6>
                 <h6 class="card-title font-italic">Activa Idioma Academy</h6>
                 <div class="card-body">
                     <p class="card-text">• Lead dev team in improving the UX of company website and proprietary
-                        learning platform while considering best practices of SEO, design, and marketing.
+                        learning platform while considering best practices and standards of the web, SEO, design, and marketing.
                     </p>
                     <p class="card-text">• Create/execute marketing strategy using industry and client research to
                         attract and maintain clients for online and offline English classes; direct teammates to
@@ -177,7 +297,7 @@
                         English</a>
                 </div>
             </div>
-            <div class="col-lg-3 border border-primary rounded m-2 shadow text-center">
+            <div class="col-lg-3 col-md-10 border border-primary rounded m-2 shadow text-center">
                 <a href="https://www.planomatic.com/" target="_blank"><img class="card-img-top exp-snip"
                         src="images/logo_planomatic.png" alt="planomatic-logo"></a>
                 <h6 class="card-title">Brand Manager</h6>
@@ -211,7 +331,7 @@
 
     <!-- Education -->
     <span id="education" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
         <h2 class="my-5 pt-5 ">Education</h2>
         <table class="table table-primary shadow m-auto" style="max-width:1000px">
             <tbody>
@@ -227,13 +347,13 @@
                     <td>Covalence</td>
                     <td>December 2019</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>CELTA (Certificate in English Language Teaching to Adults)</td>
                     <td>University of Cambridge/ILA Vietnam</td>
                     <td>May 2015</td>
-                </tr>
+                </tr> -->
                 <tr>
-                    <td>Bachelor of Arts</td>
+                    <td>Bachelor of Arts, History</td>
                     <td>University of Minnesota</td>
                     <td>December 2010</td>
                 </tr>
@@ -243,7 +363,7 @@
 
     <!-- Interests -->
     <span id="interests" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Personal Interests</h2>
         <div class="container d-flex justify-content-center">
             <div class="row">
@@ -271,126 +391,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Projects -->
-    <span id="projects" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
-        <h2 class="my-5 pt-5">Live Projects</h2>
-        <p class="mb-5 text-center text-secondary">(Heroku load time = a few moments)</p>
-        <section class="row justify-content-center mb-5">
-            <div class="card-group col-10 mx-5">
-                <!--------Group of Cards ---->
-                <div class="row d-flex justify-content-center mb-5">
-                    <div class="card proj-card border rounded m-2 shadow">
-                        <img class="card-img-top proj-snip" src="images/blog-prev.jpg" alt="blog image">
-                        <div class="card-body card-body-proj">
-                            <h5 class="card-title">Blog</h5>
-                            <p class="card-text font-italic text-secondary">A full stack blog. Note: Please open the dev
-                                console.</p>
-                            <hr>
-                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
-                            <ul>
-                                <li>React + Hooks</li>
-                                <li>Typescript</li>
-                                <li>HTML</li>
-                                <li>SASS</li>
-                                <li>Bootstrap</li>
-                                <li>Node/Express</li>
-                                <li>MySQL</li>
-                                <li>PassportJS</li>
-                                <li>Stripe & Mailgun APIs</li>
-                            </ul>
-                        </div>
-                        <div class="mb-3 mx-2">
-                            <a href="http://bit.ly/2qmOSnV" target="_blank" class="project-btn btn btn-primary mx-1"
-                                aria-label="Go to App">Go to
-                                App</a>
-                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
-                                data-target="#modal-blog" aria-label="Details">Details</button>
-                        </div>
-                    </div>
-                    <div class="card proj-card border rounded m-2 shadow">
-                        <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="tarot reader image">
-                        <div class="card-body card-body-proj">
-                            <h5 class="card-title">Tarot Reader</h5>
-                            <p class="card-text font-italic text-secondary">A tarot card app to help you ponder life's
-                                next
-                                steps.</p>
-                            <hr>
-                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
-                            <ul>
-                                <li>React Hooks</li>
-                                <li>HTML</li>
-                                <li>SASS</li>
-                                <li>Bootstrap</li>
-                                <li>Node/Express</li>
-                                <li>MySQL</li>
-                            </ul>
-                        </div>
-                        <div class="mb-3 mx-3">
-                            <a href="http://bit.ly/2DfPRt4" class="project-btn btn btn-primary text-white mx-1"
-                                target="_blank" aria-label="Go to App">Go
-                                to
-                                App</a>
-                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
-                                data-target="#modal-tarot" aria-label="Details">Details</button>
-                        </div>
-                    </div>
-                    <div class="card proj-card border rounded m-2 shadow">
-                        <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="shape game image">
-                        <div class="card-body card-body-proj">
-                            <h5 class="card-title">Shape Drawing App</h5>
-                            <p class="card-text font-italic text-secondary">An app that lets you draw shapes onto a
-                                canvas.
-                            </p>
-                            <hr>
-                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
-                            <ul>
-                                <li>jQuery</li>
-                                <li>OOP</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Bootstrap</li>
-                                <li>Node/Express</li>
-                            </ul>
-                        </div>
-                        <div class="mb-3 mx-3">
-                            <a href="http://bit.ly/2JRLDeS" class="project-btn btn btn-primary mx-1" target="_blank"
-                                aria-label="Go to App">Go
-                                to App</a>
-                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
-                                data-target="#modal-shape" aria-label="Details">Details</button>
-                        </div>
-                    </div>
-                    <div class="card proj-card border rounded m-2 shadow">
-                        <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="typing game image">
-                        <div class="card-body card-body-proj">
-                            <h5 class="card-title">Typing Game</h5>
-                            <p class="card-text font-italic text-secondary">A typing game that tests your speed and
-                                accuracy.
-                            </p>
-                            <hr>
-                            <h6 class="mt-3 text-underline"><u>Built Using:</u></h6>
-                            <ul>
-                                <li>jQuery</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Bootstrap</li>
-                                <li>Node/Express</li>
-                            </ul>
-                        </div>
-                        <div class="mb-3 mx-3">
-                            <a href="http://bit.ly/2pBtBa5" class="project-btn btn btn-primary mx-1" target="_blank"
-                                aria-label="Go to App">Go to
-                                App</a>
-                            <button class="project-btn btn btn-outline-primary modal-btn mx-1" data-toggle="modal"
-                                data-target="#modal-type" aria-label="Details">Details</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
 
     <!----Credits-->
@@ -426,16 +426,21 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li class="my-2"><strong>Goal</strong>: To create a full stack blog that incorporates
+                        <li class="my-3"><strong>Goal</strong>: Create a full stack blog that incorporates
                             authorization and authentication through registration and login
                             components, information stored and called via a database, and a clean UI that houses
                             multiple web pages.</li>
-                        <li class="my-2"><strong>Important Lesson I Learned</strong>: Frequently reiterating the ‘big picture’ of a project helps me to strategize next steps and resolve issues faster. Being
-                        unfamiliar with technologies like PassportJS and bcrypt, this app proved to be complex and confusing. To help it all
-                        ‘click’ in my mind, I would repeatedly track the flow of information from servers to middleware to the database to the
-                        client.</li>
-                        <li class="my-2"><strong>New Technologies/Skills Used</strong>: PassportJS to validate web tokens; bcrypt for hashing and salting passwords; Knex SQL query builder; Stripe and Mailgun
-                        APIs for in-app payments and email</li>
+                        <li class="my-3"><strong>Important Lesson I Learned</strong>: Frequently reiterating the ‘big
+                            picture’ of a project helps me to strategize next steps and resolve issues faster. Being
+                            unfamiliar with technologies like PassportJS and bcrypt, this app proved to be complex and
+                            confusing. To help it all
+                            ‘click’ in my mind, I would repeatedly track the flow of information from servers to
+                            middleware to the database to the
+                            client. It was the first time I could verbally describe this flow with confidence even
+                            though I'd built multiple full stack apps before.</li>
+                        <li class="my-3"><strong>New Technologies/Skills Used</strong>: PassportJS to validate web
+                            tokens; bcrypt for hashing and salting passwords; Knex SQL query builder; Stripe and Mailgun
+                            APIs for in-app payments and email</li>
                 </div>
                 <div class="modal-footer">
                     <a href="http://bit.ly/2qmOSnV" target="_blank" class="project-btn btn btn-primary modal-btn"
@@ -460,19 +465,25 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li class="my-2"><strong>Goal</strong>: Build the simplest tarot reader possible,
+                        <li class="my-3"><strong>Goal</strong>: Build the simplest tarot reader possible,
                             paring down every
                             feature to its
                             most
                             basic function but using
                             intuitive and user-centric features to ensure a delightful user experience.</li>
-                        <li class="my-2"><strong>Important Lesson I Learned</strong>: Don’t overcomplicate things. Feeling least confident with my MySQL abilities, I began the project focused on how I would
-                        store image and text content to be rendered dynamically on the client UI. After trials and errors taught me that storing
-                        images in MySQL wasn’t optimal, and that AWS overcomplicated things, it dawned on me that the most basic solution was
-                        the best: to optimize my images for web and store the files locally. From here on out, I should consider all options,
-                        technologies, and steps before starting a web project.
-</li>
-                        <li class="my-2"><strong>New Technologies/Skills Used</strong>: React Bootstrap library features Loading Overlay and Spinner; ternary operator for rendering images dynamically</li>
+                        <li class="my-3"><strong>Important Lesson I Learned</strong>: Little planning can lead to
+                            overcomplication. Feeling least confident with my MySQL abilities, I began the project
+                            by immediately diving into how I would
+                            store image and text content to be rendered dynamically on the client UI. After trials and
+                            errors taught me that storing
+                            images in MySQL wasn’t optimal, and that AWS overcomplicated things, it dawned on me that
+                            the simplest solution was
+                            the best: to optimize my images for web and store the files locally. From here on out, I
+                            need to consider all options,
+                            technologies, and steps before starting a web project.
+                        </li>
+                        <li class="my-3"><strong>New Technologies/Skills Used</strong>: React Bootstrap library features
+                            Loading Overlay and Spinner; ternary operator for rendering images dynamically</li>
                 </div>
                 <div class="modal-footer">
                     <a href="http://bit.ly/2DfPRt4" target="_blank" class="project-btn btn btn-primary"
@@ -498,15 +509,30 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li class="my-2"><strong>Goal</strong>: Build a shape-drawing app with my main focus being on practicing front-end design.</li>
-                        <li class="my-2"><strong>Important Lesson I Learned</strong>: How even a “simple app” can be rather complex. This project helped solidify the concept of JS class constructors for me,
-                        and I finally understood that constructors are necessary to instantiate new objects (with necessary properties) created
-                        by a class. In addition, I learned how important my junior high math skills can be for coding: they helped me resolve
-                        two issues. First, how do I draw a triangles? (It was proving to be incredibly tricky). For this, I used the border of
-                        an empty square shape and colored one corner to draw triangles. Who knew that was so complicated? And second, how do I
-                        keep shapes from drawing outside of the canvas? For this, I calculated the max amount of pixels that each shape could
-                        contain to keep it limited to the area within the canvas’s perimeter.</li>
-                        <li class="my-2"><strong>New Technologies/Skills Used</strong>: Object Oriented Programming and inheritance; lots of math</li>
+                        <li class="my-3"><strong>Goal</strong>: Build a shape-drawing app with my main focus being on
+                            the front-end design.</li>
+                        <li class="my-3"><strong>Important Lesson I Learned</strong>: How even a “simple app” can be
+                            rather complex. This project helped solidify the concept of JS class constructors for me,
+                            and I finally understood that constructors are necessary to instantiate new objects (with
+                            necessary properties) created
+                            by a class. In addition, I learned how important my junior high math skills can be for
+                            coding: they helped me resolve
+                            two issues.
+                            <br><br>
+                            First, how do I draw a triangle? (It was proving to be incredibly tricky). I researched and
+                            attempted different
+                            calculations to draw triangles but the solution involved thinking totally differently: what
+                            could provide the appearance of a triangle when it wasn't actually a triangle? An empty
+                            square, of course! I drew
+                            an empty square shape, made the border thick and beveled, and colored one piece of a corner to create a
+                            triangle. (My brain exploded a bit in the process.)
+                            <br><br>
+                            Second, how do I
+                            keep shapes from drawing outside of the canvas? For this, I limited the amount of
+                            pixels that each shape could
+                            contain in order to keep its drawn position within the canvas’s perimeter.</li>
+                        <li class="my-3"><strong>New Technologies/Skills Used</strong>: Object Oriented Programming and
+                            inheritance; lots of math</li>
                 </div>
                 <div class="modal-footer">
                     <a href="http://bit.ly/2JRLDeS" target="_blank" class="project-btn btn btn-primary modal-btn"
@@ -531,16 +557,25 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li class="my-2"><strong>Goal</strong>: I was very excited to get this game working (I was a Mavis Beacon ace as a kid), but I knew the mechanics of it (i.e.
-                        the jQuery) would require extra attention. My primary aim was to make the game function well, have a good UI even if
-                        it wasn’t the prettiest, and to add proper game instructions to improve the UX.</li>
-                        <li class="my-2"><strong>Important Lesson I Learned</strong>: How to think a bit outside of the box in jQuery as a novice developer. This game required using keyCodes and event.which
-                        in order for the app to identify which keys were being pressed during gameplay; therefore, I had to learn that
-                        unfamiliar ways of selecting elements, such as $(‘#’ + e.which), were valid and really useful. After that, my last
-                        challenge was placing the yellow block/highlighter directly over the correct letter that was to be pressed on the
-                        keyboard. I made countless tiny pixel tweaks to position it correctly, but it didn’t sit perfectly centered over each
-                        letter until I finally tried the addition assignment operator (+=).</li>
-                        <li class="my-2"><strong>New Technologies/Skills Used</strong>: JS keyCodes, keypress events, and event.which; bootstrap modals</li>
+                        <li class="my-3"><strong>Goal</strong>: I was very excited to get this game working––I was a
+                            Mavis Beacon ace as a kid––but I knew the mechanics of it (i.e.
+                            the jQuery) would require extra attention. My primary aim was to make the game function
+                            well, have a good UI even if
+                            it wasn’t the prettiest, and to add game instructions to improve the UX.</li>
+                        <li class="my-3"><strong>Important Lesson I Learned</strong>: How to think a bit outside of the
+                            box in jQuery as a novice developer. This game required using keyCodes and event.which
+                            in order for the app to identify which keys were being pressed during gameplay; therefore, I
+                            had to learn that
+                            unfamiliar ways of selecting elements, such as $(‘#’ + e.which), were valid and really
+                            useful. 
+                            <br><br>After that, my last
+                            challenge was placing the yellow block/highlighter directly over the correct letter that was
+                            to be pressed on the
+                            keyboard. I made countless tiny pixel tweaks to position it correctly, but it didn’t
+                            position well over each
+                            letter until I finally used the addition assignment operator (+=) in its CSS.</li>
+                        <li class="my-3"><strong>New Technologies/Skills Used</strong>: JS keyCodes, keypress events,
+                            and event.which; bootstrap modals</li>
                 </div>
                 <div class="modal-footer">
                     <a href="http://bit.ly/2pBtBa5" target="_blank" class="project-btn btn btn-primary modal-btn"
