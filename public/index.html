@@ -96,7 +96,7 @@
 
     <!-- Skills -->
     <span id="devskills" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease">
+    <div class="aos-item mt-5" data-aos="fade-right" data-aos-offset="215" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Dev Skills</h2>
         <section class="row d-flex mb-4 m-0 p-3 skills text-center rounded">
             <div class="col-sm mb-5 pb-5">
@@ -131,7 +131,7 @@
 
     <!-- Projects -->
     <span id="projects" style="padding-top: 40px; margin-top: 40px;"></span>
-    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Live Projects</h2>
         <p class="mb-5 text-center text-secondary">(Heroku load time = a few moments)</p>
         <section class="row justify-content-center mb-5">
@@ -251,7 +251,7 @@
 
     <!-- Experience -->
     <span id="experience" style="padding-top: 80px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5 mx-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5 mx-5" data-aos="fade-right" data-aos-offset="225" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Relevant Experience</h2>
         <section class="row justify-content-center">
 
@@ -338,7 +338,7 @@
 
     <!-- Education -->
     <span id="education" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease">
         <h2 class="my-5 pt-5 ">Education</h2>
         <table class="table table-primary shadow m-auto" style="max-width:1000px">
             <tbody>
@@ -370,7 +370,7 @@
 
     <!-- Interests -->
     <span id="interests" style="padding-top: 40px; margin-top: -40px;"></span>
-    <div class="aos-item mt-5 pb-5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease">
+    <div class="aos-item mt-5 pb-5" data-aos="fade-right" data-aos-offset="225" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Personal Interests</h2>
         <div class="container d-flex justify-content-center">
             <div class="row">
@@ -625,7 +625,10 @@
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 
 <script>
-    AOS.init({ duration: 400 });
+    AOS.init({ 
+        duration: 400,
+        disable: 'mobile'
+    });
 
     $('#modal-blog').modal('hide');
     $('.modal-btn').on('click', function () {
