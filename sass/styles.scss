@@ -17,10 +17,12 @@ body {
     position: fixed;
     top:0;
     color: #C9672A;
+    border-bottom: solid 1px #C9672A;
+    box-shadow: darkslategrey;
 }
 
 .rounded-circle {
-    height: 5em;
+    max-height: 10em;
 }
 
 .badge {
@@ -45,12 +47,10 @@ body {
     overflow-wrap: break-word;
     justify-content: center;
     align-items: center;
-    
 }
 
 .proj-card {
     align-content: center;
-    
 }
 
 
