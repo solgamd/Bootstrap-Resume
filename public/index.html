@@ -129,7 +129,7 @@
         </section>
     </div>
 
-    <!-- Projects -->
+    <!-- Live Projects -->
     <span id="projects" style="padding-top: 40px; margin-top: 40px;"></span>
     <div class="aos-item mt-5" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease">
         <h2 class="my-5 pt-5">Live Projects</h2>
@@ -164,6 +164,70 @@
                                 data-target="#modal-ximity" aria-label="Details">Details</button>
                         </div>
                     </div>
+                    <!----Modal: Ximity-->
+                    <div id="modal-ximity" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Ximity Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <h6 class="mt-4"><strong>Individual or Collaborative Project?</strong> Collaborative
+                                    </h6>
+                                    <h6 class="mt-4"><strong>My Roles</strong>: Front-end development, UX research &
+                                        testing
+
+                                    </h6>
+                                    <h6 class="mt-4"><strong>Goal</strong>:</h6>
+                                    <p>
+                                        The COVID-19 pandemic brought about a need for
+                                        at-risk or vulnerable individuals to easily find help with daily tasks
+                                        they couldn’t perform themselves, and for neighbors to step up and assist
+                                        those in need.
+                                        We created a solution for
+                                        neighbors to connect and foster community in this way.</p>
+
+
+                                    <h6 class="mt-4"><strong>Process</strong>:</h6>
+                                    <p>
+                                        From the outset, my team used a UX-driven approach. I
+                                        participated in identifying problems and solutions via our User
+                                        Centered Design Canvas (UCDC), observing user testing with our prototype,
+                                        and analyzed
+                                        our
+                                        user data to build out the
+                                        frontend design and functionality.</p>
+
+                                    <h6 class="mt-4"><strong>What I Learned</strong>:</h6>
+                                    <ul>
+                                        <li>React refs are a solution for passing information “backwards” up the
+                                            chain from
+                                            child component to parent component. I was intimidated by
+                                            the concept of refs, but I dove in to learn how they work and
+                                            successfully implemented them
+                                            in a much shorter time than anticipated!</li>
+                                        <li>Determining the frontend-backend connection of the app from the start
+                                            will help
+                                            avoid deployment delays later.</li>
+                                    </ul>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="http://elleneub.com/ximity/" target="_blank"
+                                        class="btn btn-primary modal-btn" aria-label="Go to App">Go to
+                                        App</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        aria-label="Close">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----Blog-->
                     <div class="card proj-card border rounded m-2 shadow">
                         <img class="card-img-top proj-snip" src="images/blog-prev.jpg" alt="blog image">
                         <div class="card-body card-body-proj">
@@ -192,6 +256,69 @@
                                 data-target="#modal-blog" aria-label="Details">Details</button>
                         </div>
                     </div>
+
+                    <!----Modal: Blog-->
+                    <div id="modal-blog" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Blog Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6><strong>Individual or Collaborative Project?</strong> Individual
+                                    </h6>
+                                    <h6 class="mt-4"><strong>Goal</strong>: </h6>
+                                    <p>
+                                        Create a full stack blog that
+                                        incorporates
+                                        authorization and authentication through registration and login
+                                        components, information stored and called via a database, and a clean UI
+                                        that houses
+                                        multiple web pages.</p>
+                                    <h6 class="mt-4"><strong>Important Lesson I Learned</strong>:</h6>
+                                    <p>
+                                        Frequently
+                                        reiterating the
+                                        ‘big
+                                        picture’ of a project helps me to strategize next steps and resolve issues
+                                        faster. Being
+                                        unfamiliar with technologies like PassportJS and bcrypt, this app proved to
+                                        be complex
+                                        and
+                                        confusing. To help it all
+                                        ‘click’ in my mind, I would repeatedly track the flow of information from
+                                        servers to
+                                        middleware to the database to the
+                                        client. It was the first time I could verbally describe this flow with
+                                        confidence even
+                                        though I'd built multiple full stack apps before.</p>
+                                    <h6 class="mt-4"><strong>New Technologies/Skills Used</strong>: </h6>
+                                    <ul>
+                                        <li>Passport JS to
+                                            validate web
+                                            tokens; bcrypt for hashing and salting passwords</li>
+                                        <li>Knex SQL query builder</li>
+                                        <li>Stripe and
+                                            Mailgun
+                                            APIs for in-app payments and email</li>
+                                    </ul>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="http://bit.ly/2qmOSnV" target="_blank" class="btn btn-primary modal-btn"
+                                        aria-label="Go to App">Go to
+                                        App</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        aria-label="Close">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---Tarot-->
                     <div class="card proj-card border rounded m-2 shadow">
                         <img class="card-img-top proj-snip" src="images/tarot-prev.jpg" alt="tarot reader image">
                         <div class="card-body card-body-proj">
@@ -219,6 +346,74 @@
                                 data-target="#modal-tarot" aria-label="Details">Details</button>
                         </div>
                     </div>
+
+                    <!----Modal: Tarot-->
+                    <div id="modal-tarot" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Tarot Reader Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6><strong>Individual or Collaborative Project?</strong> Individual
+                                    </h6>
+                                    <h6 class="mt-4"><strong>Goal</strong>: </h6>
+                                    <p>
+                                        Build the simplest tarot reader
+                                        possible,
+                                        paring down every
+                                        feature to its
+                                        most
+                                        basic function but using
+                                        intuitive and user-centric features to ensure a delightful user experience.
+                                    </p>
+                                    <h6 class="mt-4"><strong>Important Lesson I Learned</strong>: </h6>
+                                    <p>
+                                        Little planning
+                                        can lead to
+                                        overcomplication. Feeling least confident with my MySQL abilities, I began
+                                        the project
+                                        by immediately diving into how I would
+                                        store image and text content to be rendered dynamically on the client UI.
+                                        After trials
+                                        and
+                                        errors taught me that storing
+                                        images in MySQL wasn’t optimal, and that AWS overcomplicated things, it
+                                        dawned on me
+                                        that
+                                        the simplest solution was
+                                        the best: to optimize my images for web and store the files locally. From
+                                        here on out, I
+                                        need to consider all options,
+                                        technologies, and steps before starting a web project.
+                                    </p>
+                                    <h6 class="mt-4"><strong>New Technologies/Skills Used</strong>:</h6>
+                                    <ul>
+                                        <li>React Bootstrap
+                                            library
+                                            features
+                                            Loading Overlay and Spinner</li>
+                                        <li>Ternary operator for rendering images
+                                            dynamically</li>
+                                    </ul>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="http://bit.ly/2DfPRt4" target="_blank" class="btn btn-primary"
+                                        aria-label="Go to App">Go
+                                        to
+                                        App</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        aria-label="Close">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----Shape Up-->
                     <div class="card proj-card border rounded m-2 shadow">
                         <img class="card-img-top proj-snip" src="images/shape-prev.jpg" alt="shape game image">
                         <div class="card-body card-body-proj">
@@ -245,6 +440,88 @@
                                 data-target="#modal-shape" aria-label="Details">Details</button>
                         </div>
                     </div>
+
+                    <!-------Modal: Shape-->
+                    <div id="modal-shape" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Shape Game Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6><strong>Individual or Collaborative Project?</strong> Individual
+                                    </h6>
+
+                                    <h6 class="mt-4"><strong>Goal</strong>: </h6>
+                                    <p>
+                                        Build a shape-drawing app with my main
+                                        focus being
+                                        on
+                                        the front-end design.</p>
+                                    <h6 class="mt-4"><strong>Important Lesson I Learned</strong>: </h6>
+                                    <p>
+                                        How even a “simple
+                                        app” can be
+                                        rather complex. This project helped solidify the concept of JS class
+                                        constructors for
+                                        me,
+                                        and I finally understood that constructors are necessary to instantiate new
+                                        objects
+                                        (with
+                                        necessary properties) created
+                                        by a class. In addition, I learned how important my junior high math skills
+                                        can be for
+                                        coding: they helped me resolve
+                                        two issues.
+                                        <br><br>
+                                        First, how do I draw a triangle? (It was proving to be incredibly tricky). I
+                                        researched
+                                        and
+                                        attempted different
+                                        calculations to draw triangles but the solution involved thinking totally
+                                        differently:
+                                        what
+                                        could provide the appearance of a triangle when it wasn't actually a
+                                        triangle? An empty
+                                        square, of course! I drew
+                                        an empty square shape, made the border thick and beveled, and colored one
+                                        piece of a
+                                        corner
+                                        to create a
+                                        triangle. (My brain exploded a bit in the process.)
+                                        <br><br>
+                                        Second, how do I
+                                        keep shapes from drawing outside of the canvas? For this, I limited the
+                                        amount of
+                                        pixels that each shape could
+                                        contain in order to keep its drawn position within the canvas’s perimeter.
+                                    </p>
+                                    <h6 class="mt-4"><strong>New Technologies/Skills Used</strong>: </h6>
+                                        <ul>
+                                            <li>Object Oriented
+                                                Programming
+                                                and
+                                                inheritance</li>
+                                            <li>Lots of math</li>
+                                        </ul>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="http://bit.ly/2JRLDeS" target="_blank" class="btn btn-primary modal-btn"
+                                        aria-label="Go to App">Go
+                                        to
+                                        App</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        aria-label="Close">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----Type-->
                     <!-- <div class="card proj-card border rounded m-2 shadow">
                         <img class="card-img-top proj-snip mx-auto" src="images/type-prev.jpg" alt="typing game image">
                         <div class="card-body card-body-proj">
@@ -270,6 +547,53 @@
                                 data-target="#modal-type" aria-label="Details">Details</button>
                         </div>
                     </div> -->
+                    <!-------Modal: Type-->
+                    <!-- <div id="modal-type" class="modal" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Typing Game Details</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li class="my-3"><strong>Goal</strong>: I was very excited to get this game working––I was a
+                                                    Mavis Beacon ace as a kid––but I knew the mechanics of it (i.e.
+                                                    the jQuery) would require extra attention. My primary aim was to make the game function
+                                                    well, have a good UI even if
+                                                    it wasn’t the prettiest, and to add game instructions to improve the UX.</li>
+                                                <li class="my-3"><strong>Important Lesson I Learned</strong>: How to think a bit outside of
+                                                    the
+                                                    box in jQuery as a novice developer. This game required using keyCodes and event.which
+                                                    in order for the app to identify which keys were being pressed during gameplay;
+                                                    therefore, I
+                                                    had to learn that
+                                                    unfamiliar ways of selecting elements, such as $(‘#’ + e.which), were valid and really
+                                                    useful.
+                                                    <br><br>After that, my last
+                                                    challenge was placing the yellow block/highlighter directly over the correct letter that
+                                                    was
+                                                    to be pressed on the
+                                                    keyboard. I made countless tiny pixel tweaks to position it correctly, but it didn’t
+                                                    position well over each
+                                                    letter until I finally used the addition assignment operator (+=) in its CSS.</li>
+                                                <li class="my-3"><strong>New Technologies/Skills Used</strong>: JS keyCodes, keypress
+                                                    events,
+                                                    and event.which; bootstrap modals</li>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="http://bit.ly/2pBtBa5" target="_blank" class="btn btn-primary modal-btn"
+                                                aria-label="Go to App">Go
+                                                to
+                                                App</a>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
                 </div>
             </div>
         </section>
@@ -448,254 +772,6 @@
             </div>
         </section>
 
-        <!----Modal 0-->
-        <div id="modal-ximity" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Ximity Details</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <h6 class="my-3"><strong>Individual or Collaborative Project?</strong> Collaborative</h6>
-                        <h6 class="my-3"><strong>My Roles</strong>: Front-end development, UX research & testing
-
-                        </h6>
-                        <h6 class="my-3"><strong>Goal</strong>:
-                            <p>
-                                The COVID-19 pandemic brought about a need for
-                                at-risk or vulnerable individuals to easily find help with daily tasks
-                                they couldn’t perform themselves, and for neighbors to step up and assist those in need.
-                                We created a solution for
-                                neighbors to connect and foster community in this way.</p>
-                            </ul>
-                        </h6>
-                        <h6 class="my-3"><strong>Process</strong>:
-                            <p>
-                                From the outset, my team used a UX-driven approach. I
-                                participated in identifying problems and solutions via our User
-                                Centered Design Canvas (UCDC), observing user testing with our prototype, and analyzed
-                                our
-                                user data to build out the
-                                frontend design and functionality.</p>
-                        </h6>
-                        <h6 class="my-3"><strong>What I Learned</strong>:
-                            <ul>
-                                <li>React refs are a solution for passing information “backwards” up the chain from
-                                    child component to parent component. I was intimidated by
-                                    the concept of refs, but I dove in to learn how they work and successfully implemented them in a much shorter time than anticipated!</li>
-                                <li>Determining the frontend-backend connection of the app from the start will help
-                                    avoid deployment delays later.</li>
-                            </ul>
-                        </h6>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="http://elleneub.com/ximity/" target="_blank" class="btn btn-primary modal-btn"
-                            aria-label="Go to App">Go to
-                            App</a>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                            aria-label="Close">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!----Modal 1-->
-        <div id="modal-blog" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Blog Details</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <ul>
-                            <li class="my-3"><strong>Goal</strong>: Create a full stack blog that incorporates
-                                authorization and authentication through registration and login
-                                components, information stored and called via a database, and a clean UI that houses
-                                multiple web pages.</li>
-                            <li class="my-3"><strong>Important Lesson I Learned</strong>: Frequently reiterating the
-                                ‘big
-                                picture’ of a project helps me to strategize next steps and resolve issues faster. Being
-                                unfamiliar with technologies like PassportJS and bcrypt, this app proved to be complex
-                                and
-                                confusing. To help it all
-                                ‘click’ in my mind, I would repeatedly track the flow of information from servers to
-                                middleware to the database to the
-                                client. It was the first time I could verbally describe this flow with confidence even
-                                though I'd built multiple full stack apps before.</li>
-                            <li class="my-3"><strong>New Technologies/Skills Used</strong>: PassportJS to validate web
-                                tokens; bcrypt for hashing and salting passwords; Knex SQL query builder; Stripe and
-                                Mailgun
-                                APIs for in-app payments and email</li>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="http://bit.ly/2qmOSnV" target="_blank" class="btn btn-primary modal-btn"
-                            aria-label="Go to App">Go to
-                            App</a>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                            aria-label="Close">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!----Modal 2-->
-        <div id="modal-tarot" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Tarot Reader Details</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <ul>
-                            <li class="my-3"><strong>Goal</strong>: Build the simplest tarot reader possible,
-                                paring down every
-                                feature to its
-                                most
-                                basic function but using
-                                intuitive and user-centric features to ensure a delightful user experience.</li>
-                            <li class="my-3"><strong>Important Lesson I Learned</strong>: Little planning can lead to
-                                overcomplication. Feeling least confident with my MySQL abilities, I began the project
-                                by immediately diving into how I would
-                                store image and text content to be rendered dynamically on the client UI. After trials
-                                and
-                                errors taught me that storing
-                                images in MySQL wasn’t optimal, and that AWS overcomplicated things, it dawned on me
-                                that
-                                the simplest solution was
-                                the best: to optimize my images for web and store the files locally. From here on out, I
-                                need to consider all options,
-                                technologies, and steps before starting a web project.
-                            </li>
-                            <li class="my-3"><strong>New Technologies/Skills Used</strong>: React Bootstrap library
-                                features
-                                Loading Overlay and Spinner; ternary operator for rendering images dynamically</li>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="http://bit.ly/2DfPRt4" target="_blank" class="btn btn-primary"
-                            aria-label="Go to App">Go
-                            to
-                            App</a>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                            aria-label="Close">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-------Modal 3-->
-        <div id="modal-shape" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Shape Game Details</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <ul>
-                            <li class="my-3"><strong>Goal</strong>: Build a shape-drawing app with my main focus being
-                                on
-                                the front-end design.</li>
-                            <li class="my-3"><strong>Important Lesson I Learned</strong>: How even a “simple app” can be
-                                rather complex. This project helped solidify the concept of JS class constructors for
-                                me,
-                                and I finally understood that constructors are necessary to instantiate new objects
-                                (with
-                                necessary properties) created
-                                by a class. In addition, I learned how important my junior high math skills can be for
-                                coding: they helped me resolve
-                                two issues.
-                                <br><br>
-                                First, how do I draw a triangle? (It was proving to be incredibly tricky). I researched
-                                and
-                                attempted different
-                                calculations to draw triangles but the solution involved thinking totally differently:
-                                what
-                                could provide the appearance of a triangle when it wasn't actually a triangle? An empty
-                                square, of course! I drew
-                                an empty square shape, made the border thick and beveled, and colored one piece of a
-                                corner
-                                to create a
-                                triangle. (My brain exploded a bit in the process.)
-                                <br><br>
-                                Second, how do I
-                                keep shapes from drawing outside of the canvas? For this, I limited the amount of
-                                pixels that each shape could
-                                contain in order to keep its drawn position within the canvas’s perimeter.</li>
-                            <li class="my-3"><strong>New Technologies/Skills Used</strong>: Object Oriented Programming
-                                and
-                                inheritance; lots of math</li>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="http://bit.ly/2JRLDeS" target="_blank" class="btn btn-primary modal-btn"
-                            aria-label="Go to App">Go
-                            to
-                            App</a>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                            aria-label="Close">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-------Modal 4-->
-        <!-- <div id="modal-type" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Typing Game Details</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <ul>
-                            <li class="my-3"><strong>Goal</strong>: I was very excited to get this game working––I was a
-                                Mavis Beacon ace as a kid––but I knew the mechanics of it (i.e.
-                                the jQuery) would require extra attention. My primary aim was to make the game function
-                                well, have a good UI even if
-                                it wasn’t the prettiest, and to add game instructions to improve the UX.</li>
-                            <li class="my-3"><strong>Important Lesson I Learned</strong>: How to think a bit outside of
-                                the
-                                box in jQuery as a novice developer. This game required using keyCodes and event.which
-                                in order for the app to identify which keys were being pressed during gameplay;
-                                therefore, I
-                                had to learn that
-                                unfamiliar ways of selecting elements, such as $(‘#’ + e.which), were valid and really
-                                useful.
-                                <br><br>After that, my last
-                                challenge was placing the yellow block/highlighter directly over the correct letter that
-                                was
-                                to be pressed on the
-                                keyboard. I made countless tiny pixel tweaks to position it correctly, but it didn’t
-                                position well over each
-                                letter until I finally used the addition assignment operator (+=) in its CSS.</li>
-                            <li class="my-3"><strong>New Technologies/Skills Used</strong>: JS keyCodes, keypress
-                                events,
-                                and event.which; bootstrap modals</li>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="http://bit.ly/2pBtBa5" target="_blank" class="btn btn-primary modal-btn"
-                            aria-label="Go to App">Go
-                            to
-                            App</a>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                            aria-label="Close">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
 </html>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -717,28 +793,29 @@
         disable: 'mobile'
     });
 
-    $('#modal-ximity').modal('hide');
-        $('.modal-btn').on('click', function () {
-            $(window).off('scroll'); 
-            $('#modal-ximity').modal('show');
-            // $('body').css('overflow', 'auto');
-        });
 
-    $('#modal-blog').modal('hide');
-    $('.modal-btn').on('click', function () {
-        $('#modal-blog').modal('show');
-        // $('body').css('overflow', 'auto');
-    });
+    // $('#modal-ximity').modal('hide');
+    //     $('.modal-btn').on('click', function () {
+    //         $(window).off('scroll'); 
+    //         $('#modal-ximity').modal('show');
+    //         // $('body').css('overflow', 'auto');
+    //     });
 
-    $('#modal-tarot').modal('hide');
-    $('.modal-btn').on('click', function () {
-        $('#modal-tarot').modal('show');
-    });
+    // $('#modal-blog').modal('hide');
+    // $('.modal-btn').on('click', function () {
+    //     $('#modal-blog').modal('show');
+    //     // $('body').css('overflow', 'auto');
+    // });
 
-    $('#modal-shape').modal('hide');
-    $('.modal-btn').on('click', function () {
-        $('#modal-shape').modal('show');
-    });
+    // $('#modal-tarot').modal('hide');
+    // $('.modal-btn').on('click', function () {
+    //     $('#modal-tarot').modal('show');
+    // });
+
+    // $('#modal-shape').modal('hide');
+    // $('.modal-btn').on('click', function () {
+    //     $('#modal-shape').modal('show');
+    // });
 
     // $('#modal-type').modal('hide');
     // $('.modal-btn').on('click', function () {

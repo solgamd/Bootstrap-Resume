@@ -58,17 +58,13 @@ body {
   align-content: center;
 }
 
-.card-title {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
+// .card-title {
+//   text-align: center;
+//   margin-bottom: 20px;
+//   color: blue;
+// }
 
-.table {
-  margin-left: auto;
-  margin-right: auto;
-  float: center;
-}
+
 
 h2 {
   color: #4b4f4f;
@@ -80,6 +76,14 @@ h2 {
   font-family: "Play", sans-serif;
 }
 
+//Education
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
+
+//Footer
 .credits {
   display: flex;
   justify-content: center;
@@ -91,7 +95,3 @@ h2 {
   max-width: 112px;
 }
 
-// Modals
-.modal {
-    overflow-y: auto !important;
-}
