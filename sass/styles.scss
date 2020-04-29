@@ -1,93 +1,97 @@
-$primary: #C9672A;
-$secondary: #F9F6E5;
-$info: #437C90;
-$dark: #373E40; 
+$primary: #c9672a;
+$secondary: #f9f6e5;
+$info: #437c90;
+$dark: #373e40;
 
 @font-face {
-    font-family: 'Play', sans-serif;
-    src: url("https://fonts.googleapis.com/css?family=Play");
+  font-family: "Play", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Play");
 }
 
 body {
-    // margin-top: 50px;
-    font-family: 'Play', sans-serif;
-    margin: 0;
+  // margin-top: 50px;
+  font-family: "Play", sans-serif;
+  margin: 0;
 }
 
 .navbar {
-    position: fixed;
-    top:0;
-    color: #C9672A;
-    border-bottom: solid 1px #C9672A;
-    box-shadow: darkslategrey;
+  position: fixed;
+  top: 0;
+  color: #c9672a;
+  border-bottom: solid 1px #c9672a;
+  box-shadow: darkslategrey;
 }
 
 .rounded-circle {
-    max-height: 10em;
+  // max-height: 10em;
+  border: solid 1px white;
 }
 
+//Skills
 .badge {
-    color: #C9672A;
+  color: #c9672a;
 }
 
 .skills {
-    font-size: 16px;
-    text-align: center;
-    font-family: 'Play', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Play", sans-serif;
 }
 
+//Experience
 .exp-snip {
-    max-height: 100px;
-    max-width: 200px;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  max-height: 100px;
+  max-width: 200px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.card { 
-    display: flex;
-    overflow-wrap: break-word;
-    justify-content: center;
-    align-items: center;
+.card {
+  display: flex;
+  overflow-wrap: break-word;
 }
 
+
+
+//Projects
 .proj-card {
-    align-content: center;
+  align-content: center;
 }
-
 
 .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .table {
-    margin-left: auto;
-    margin-right: auto;
-    float: center
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
 }
 
 h2 {
-    color: #4b4f4f;
-    font-weight: 800;
-    margin-left: 100px;
+  color: #4b4f4f;
+  font-weight: 800;
+  margin-left: 100px;
 }
 
 .project-btn {
-    // padding: 5px 10px 5px 10px;
-    font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
 }
 
-
 .credits {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
 }
 
 .icon {
-    // width: 6em;    
-    // align-items: center;
-    width: 100px
+  max-width: 112px;
+}
+
+// Modals
+.modal {
+    overflow-y: auto !important;
 }
