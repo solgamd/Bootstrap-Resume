@@ -29,9 +29,6 @@ h2 {
 }
 
 //Skills
-.badge {
-  color: #c9672a;
-}
 
 .skills {
   font-size: 16px;
@@ -57,10 +54,6 @@ h2 {
   align-content: center;
 }
 
-.project-btn {
-  font-family: "Play", sans-serif;
-}
-
 //Education
 .table {
   margin-left: auto;
@@ -78,4 +71,8 @@ h2 {
 
 .icon {
   max-width: 112px;
+}
+
+.modal-body:nth-child(1) {
+    color: orange;
 }
